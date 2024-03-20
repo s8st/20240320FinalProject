@@ -56,5 +56,10 @@
 
 
 이미지 업로드 테스트
-![image](https://github.com/s8st/20240320FinalProject/assets/153998744/bcaeedf0-3753-44ac-8cc7-01e7526a1512)
+![image](https://github.com/s8st/20240320FinalProject/assets/153998744/bcaeedf0-3753-44ac-8cc7-01e7526a1512)   
+
+`/20240320FinalProject/assets/` ---> 숨겨진 폴더에 이미지가 저장되나 보다
+```
+https://github.com/s8st/20240320FinalProject/assets/153998744/bcaeedf0-3753-44ac-8cc7-01e7526a1512
+```
 
