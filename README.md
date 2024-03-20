@@ -53,10 +53,10 @@
  <summary>Assets </summary>
 
 ### Assets
-- https://assetstore.unity.com/packages/2d/environments/2d-environment-starter-pack-237152
+- 2D Environment Starter Pack: https://assetstore.unity.com/packages/2d/environments/2d-environment-starter-pack-237152
 ![alt text](image.png)
 
-볼트 2D 젤리팜 에셋 팩 : https://assetstore.unity.com/packages/2d/characters/bolt-2d-jellyfarm-assets-pack-188722
+- 볼트 2D 젤리팜 에셋 팩 : https://assetstore.unity.com/packages/2d/characters/bolt-2d-jellyfarm-assets-pack-188722
 ![alt text](image-1.png)
 
 </details>    
