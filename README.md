@@ -35,6 +35,40 @@
 ---  
 
 
+<br>
+<br>
+
+### `Gantt Charts 테스트`  
+```mermaid
+gantt
+    title 주간 계획 0320 ~0322
+    dateFormat  YYYY-MM-DD
+    section 구현
+    움직임 구현         :a1, 2024-03-21, 1d
+   맵 구현     :after a1  , 1d
+    section 추가
+    충돌      :2024-03-22  , 1d
+    공격      : 1d
+            
+
+```
+
+````
+```mermaid
+gantt
+    title 주간 계획 0320 ~0322
+    dateFormat  YYYY-MM-DD
+    section 구현
+    움직임 구현         :a1, 2024-03-21, 1d
+   맵 구현     :after a1  , 1d
+    section 추가
+    충돌      :2024-03-22  , 1d
+    공격      : 1d
+            
+
+```
+````
+
   
 
 ### `📝 개발일지  `
