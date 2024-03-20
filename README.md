@@ -41,7 +41,7 @@
 
 |개발일자|개발일자|개발일자|이슈발생|
 |--|--|--|--|
-|[0320:프로젝트 시작](storageFiles\schedule\0320.md)|||[0320:문제](storageFiles/trouble/0320Trb.md)|
+|[0320:프로젝트 시작](storageFiles/schedule/0320.md)|||[0320:문제](storageFiles/trouble/0320Trb.md)|
 ||||
 ||||
 |||||
@@ -51,8 +51,8 @@
 ---
 
 ### `참고 자료들 : `
-케릭터   :  [Assets](storageFiles\References\ref_character_map_fx.md)  
-사운드 :  [🔊사운드](storageFiles\References\ref_sound.md) 
+케릭터   :  [Assets](storageFiles/References/ref_character_map_fx.md)  
+사운드 :  [🔊사운드](storageFiles/References/ref_sound.md) 
 
 
 
