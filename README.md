@@ -59,4 +59,9 @@
 - 볼트 2D 젤리팜 에셋 팩 : https://assetstore.unity.com/packages/2d/characters/bolt-2d-jellyfarm-assets-pack-188722
 ![alt text](image-1.png)
 
+- Free Pixel Art FX Package : https://assetstore.unity.com/packages/2d/textures-materials/free-pixel-art-fx-package-185612#content  
+![alt text](image-2.png)
+
+
+
 </details>    
