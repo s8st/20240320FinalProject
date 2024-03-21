@@ -17,7 +17,7 @@ public class PlayerInputController : TopDownCharacterController
 
     public void OnMove(InputValue value)
     {
-        Debug.Log("Onmove"+value.ToString());
+   //     Debug.Log("Onmove"+value.ToString());
         Vector2 moveInput = value.Get<Vector2>().normalized;
         // normalized : 크기를 1인 단위벡터로 만들어서 방향값만 가지게
         // TopDownCharacterController에서 방향값을 인자로 받음
@@ -27,7 +27,7 @@ public class PlayerInputController : TopDownCharacterController
     }
     public void OnLook(InputValue value)
     {
-       Debug.Log("OnLook" + value.ToString());
+     //  Debug.Log("OnLook" + value.ToString());
         Vector2 newAim = value.Get<Vector2>(); // 마우스 포지션
         Vector2 worldPos = _camera.ScreenToWorldPoint(newAim); // 마우스 위치를 월드좌표값으로 변경
         newAim = (worldPos - (Vector2)transform.position).normalized;

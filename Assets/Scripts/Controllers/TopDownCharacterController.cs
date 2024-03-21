@@ -9,7 +9,8 @@ public class TopDownCharacterController : MonoBehaviour
     // event는 외부에서 호출하지 못하게 막는 역할
     public event Action<Vector2> OnMoveEvent;
     public event Action<Vector2> OnLookEvent;
-   // public event Action<AttackSO> OnAttackEvent;
+    //public event Action<AttackSO> OnAttackEvent;
+    public event Action OnAttackEvent;
 
     private float _timeSinceLastAttack = float.MaxValue;
     protected bool IsAttacking { get; set; }
@@ -22,36 +23,50 @@ public class TopDownCharacterController : MonoBehaviour
     }
 
 
-    //protected /*private*/ virtual void Update()
-    //{
-    //    HandleAttackDelay();
-    //}
+    protected /*private*/ virtual void Update()
+    {
+        HandleAttackDelay();
+    }
 
-    //private void HandleAttackDelay()
-    //{
-    //    // 공격이 없으면
-    //    if (Stats.CurrentStats.attackSO == null)
-    //    {
-    //        return;
-    //    }
+    private void HandleAttackDelay()
+    {
+        if (_timeSinceLastAttack <= 0.2f)    // TODO
+        {
+            _timeSinceLastAttack += Time.deltaTime;
+        }
 
-
-    //    // 딜레이?
-    //    // if (_timeSinceLastAttack <= .2f)
-    //    if (_timeSinceLastAttack <= Stats.CurrentStats.attackSO.delay)
-    //    {
-    //        _timeSinceLastAttack += Time.deltaTime;
-    //    }
-
-    //    // else if(IsAttacking && _timeSinceLastAttack > .2f )
-    //    else if (IsAttacking && _timeSinceLastAttack > Stats.CurrentStats.attackSO.delay)
-    //    {
-    //        _timeSinceLastAttack = 0;
-    //        CallAttackEvent(Stats.CurrentStats.attackSO); // 실제 발사는 TopDownShooting에서
-    //    }
+        if (IsAttacking && _timeSinceLastAttack > 0.2f)
+        {
+            _timeSinceLastAttack = 0;
+            CallAttackEvent();
+        }
 
 
-    //}
+        //// 공격이 없으면
+        //if (Stats.CurrentStats.attackSO == null)
+        //{
+        //    return;
+        //}
+
+
+        //// 딜레이?
+        //// if (_timeSinceLastAttack <= .2f)
+        //if (_timeSinceLastAttack <= Stats.CurrentStats.attackSO.delay)
+        //{
+        //    _timeSinceLastAttack += Time.deltaTime;
+        //}
+
+        //// else if(IsAttacking && _timeSinceLastAttack > .2f )
+        //else if (IsAttacking && _timeSinceLastAttack > Stats.CurrentStats.attackSO.delay)
+        //{
+        //    _timeSinceLastAttack = 0;
+        //    CallAttackEvent(Stats.CurrentStats.attackSO); // 실제 발사는 TopDownShooting에서
+        //}
+
+
+
+
+    }
 
 
     // Input.GetAxis( )대체 ---> Input system
@@ -68,6 +83,11 @@ public class TopDownCharacterController : MonoBehaviour
         OnLookEvent?.Invoke(direction);
     }
 
+
+    public void CallAttackEvent()
+    {
+        OnAttackEvent?.Invoke();
+    }
 
     //public void CallAttackEvent(AttackSO attackSO)
     //{
