@@ -15,11 +15,11 @@ public class TopDownCharacterController : MonoBehaviour
     private float _timeSinceLastAttack = float.MaxValue;
     protected bool IsAttacking { get; set; }
 
-   // protected CharacterStatsHandler Stats { get; private set; }
+    protected CharacterStatsHandler Stats { get; private set; }
 
     protected virtual void Awake()
     {
- //       Stats = GetComponent<CharacterStatsHandler>();
+       Stats = GetComponent<CharacterStatsHandler>();
     }
 
 
@@ -42,26 +42,26 @@ public class TopDownCharacterController : MonoBehaviour
         }
 
 
-        //// 공격이 없으면
-        //if (Stats.CurrentStats.attackSO == null)
-        //{
-        //    return;
-        //}
+        // 공격이 없으면
+        if (Stats.CurrentStats.attackSO == null)
+        {
+            return;
+        }
 
 
-        //// 딜레이?
-        //// if (_timeSinceLastAttack <= .2f)
-        //if (_timeSinceLastAttack <= Stats.CurrentStats.attackSO.delay)
-        //{
-        //    _timeSinceLastAttack += Time.deltaTime;
-        //}
+        // 딜레이?
+        // if (_timeSinceLastAttack <= .2f)
+        if (_timeSinceLastAttack <= Stats.CurrentStats.attackSO.delay)
+        {
+            _timeSinceLastAttack += Time.deltaTime;
+        }
 
-        //// else if(IsAttacking && _timeSinceLastAttack > .2f )
-        //else if (IsAttacking && _timeSinceLastAttack > Stats.CurrentStats.attackSO.delay)
-        //{
-        //    _timeSinceLastAttack = 0;
-        //    CallAttackEvent(Stats.CurrentStats.attackSO); // 실제 발사는 TopDownShooting에서
-        //}
+        // else if(IsAttacking && _timeSinceLastAttack > .2f )
+        else if (IsAttacking && _timeSinceLastAttack > Stats.CurrentStats.attackSO.delay)
+        {
+            _timeSinceLastAttack = 0;
+            CallAttackEvent(Stats.CurrentStats.attackSO); // 실제 발사는 TopDownShooting에서
+        }
 
 
 
@@ -89,10 +89,10 @@ public class TopDownCharacterController : MonoBehaviour
         OnAttackEvent?.Invoke();
     }
 
-    //public void CallAttackEvent(AttackSO attackSO)
-    //{
+    public void CallAttackEvent(AttackSO attackSO)
+    {
     //    OnAttackEvent?.Invoke(attackSO);
-    //}
+    }
 
 
 
