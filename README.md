@@ -80,7 +80,7 @@ gantt
 
 ---  
 
-> [!CAUTION]  붉은색 인용  
+> [!CAUTION]  
 > 붉은 색 경고
 
 
