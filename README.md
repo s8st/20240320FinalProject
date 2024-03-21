@@ -43,12 +43,13 @@
 gantt
     title 주간 계획 0320 ~0322
     dateFormat  YYYY-MM-DD
-    section 구현
+    section 21일 목
     움직임 구현         :a1, 2024-03-21, 1d
-   맵 구현     :after a1  , 1d
-    section 추가
-    충돌      :2024-03-22  , 1d
-    공격      : 1d
+   맵 구현     : 2024-03-21, 1d
+     충돌      :2024-03-21  , 2d
+    section 22일 금
+    
+    공격      : 2024-03-22,1d
             
 
 ```
