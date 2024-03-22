@@ -20,3 +20,8 @@
 
 - 0x72_DungeonTilesetII_v1.7.zip:  https://0x72.itch.io/dungeontileset-ii
 ![alt text](image-7.png)
+
+
+- Pixel Potions (with Animation) : https://assetstore.unity.com/packages/2d/environments/pixel-potions-with-animation-118801
+
+![alt text](image-8.png)
