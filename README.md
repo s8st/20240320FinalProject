@@ -74,7 +74,7 @@ gantt
 
 ---
 
-### `참고 자료들 : `
+### `🧾 참고 자료들 : `
 케릭터,맵,아이템,효과   :  [Assets](storageFiles/References/ref_character_map_fx.md)  
 사운드 :  [🔊Audio](storageFiles/References/ref_sound.md) 
 
