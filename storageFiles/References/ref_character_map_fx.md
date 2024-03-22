@@ -25,3 +25,6 @@
 - Pixel Potions (with Animation) : https://assetstore.unity.com/packages/2d/environments/pixel-potions-with-animation-118801
 
 ![alt text](image-8.png)
+
+- Pixel Adventure 1 : https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360  
+![alt text](image-9.png)
