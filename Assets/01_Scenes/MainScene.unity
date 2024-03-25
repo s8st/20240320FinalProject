@@ -6795,7 +6795,7 @@ MonoBehaviour:
     statsChangeType: 2
     maxHealth: 10
     speed: 5
-    attackSO: {fileID: 11400000, guid: 813dcf91892c18c4fb66d4b88d5f56c4, type: 2}
+    attackSO: {fileID: 11400000, guid: 52ea2ca5dd6d7504e9bcdb8452469134, type: 2}
   statsModifiers: []
 --- !u!1 &519420028
 GameObject:
@@ -6990,6 +6990,9 @@ MonoBehaviour:
     size: 20
   - tag: Wind
     prefab: {fileID: 8773557093075512927, guid: 4cc371a485c5c4b4698bbe02a354e14d, type: 3}
+    size: 20
+  - tag: Fire1
+    prefab: {fileID: 162026, guid: 7e29bfda6ae9b41179eef7f4860e49ac, type: 3}
     size: 20
 --- !u!1 &668324948
 GameObject:
