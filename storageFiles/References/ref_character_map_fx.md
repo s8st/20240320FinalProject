@@ -31,4 +31,8 @@
 
 _ 2D Ice World : https://assetstore.unity.com/packages/2d/environments/2d-ice-world-106818  
 
-![alt text](image-10.png)
+![alt text](image-10.png)  
+
+- Warped Shooting Fx : https://assetstore.unity.com/packages/2d/textures-materials/abstract/warped-shooting-fx-195246  
+
+![alt text](image-11.png)
