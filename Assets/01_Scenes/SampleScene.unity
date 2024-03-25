@@ -6795,7 +6795,7 @@ MonoBehaviour:
     statsChangeType: 2
     maxHealth: 10
     speed: 5
-    attackSO: {fileID: 11400000, guid: af56b9349c9d3bc4eaf2fa62f2d8a49b, type: 2}
+    attackSO: {fileID: 11400000, guid: ba6b820b61c83db4188dabef555458ce, type: 2}
   statsModifiers: []
 --- !u!1 &519420028
 GameObject:
@@ -6979,8 +6979,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pools:
+  - tag: bullet
+    prefab: {fileID: 3232696539406844061, guid: 3a4e8b5638dc9c749aad2dd700e7f8a7, type: 3}
+    size: 20
   - tag: Bomb
     prefab: {fileID: 8773557093075512927, guid: e34eca58d74f2e54d981ca34f13fdf1e, type: 3}
+    size: 20
+  - tag: Snow
+    prefab: {fileID: 3232696539406844061, guid: 85a5a577dda46c64faa979692756dcc0, type: 3}
     size: 20
 --- !u!1 &668324948
 GameObject:
