@@ -117,8 +117,13 @@ gantt
 
 
 
-
-
+```
+Feat 새로운 기능
+Fix 버그
+Update 문서 등 수정
+Test 테스트
+Remove 삭제
+```
 
 
 
