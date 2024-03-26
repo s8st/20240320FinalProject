@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelCollisionLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   fxOnDestory: 1
 --- !u!96 &-6881015026392132696
 TrailRenderer:
