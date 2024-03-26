@@ -79,7 +79,7 @@ gantt
 | 0325 ~ 0329    |  문제점    |
 |:------------------:|:------------------:|
 |[0325 : 오브젝트 풀](storageFiles/schedule/0325.md)           |           |
-|[0326 : 애니메이션](storageFiles/schedule/0326.md)          |           |
+|[0326 : 애니메이션,적,피격](storageFiles/schedule/0326.md)          | [0326 : 애니메이션 문제](storageFiles/trouble/0326T.md)           |
 |0327           |           |
 |    0328       |           |
 |        0329   |           |
