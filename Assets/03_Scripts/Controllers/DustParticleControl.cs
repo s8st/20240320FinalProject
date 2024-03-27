@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DustParticleControl : MonoBehaviour
 {
-    [SerializeField] private bool createDustOnWalk = true; //걷을 때
+    [SerializeField] private bool createDustOnWalk = true; //걸을 때
     [SerializeField] private ParticleSystem dustParticleSystem;
 
     public void CreateDustParticles()
