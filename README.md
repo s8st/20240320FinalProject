@@ -58,6 +58,12 @@
 
 <br>
 
+
+[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)
+
+
+
+
 <details >
     <summary >케릭터, 아이템 요약 작성중   </summary> 
 
@@ -68,6 +74,7 @@
 |맵||
 |장비||
 |발사체||
+|배경음악|[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)|
 
 
 
