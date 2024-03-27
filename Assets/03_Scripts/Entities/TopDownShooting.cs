@@ -68,8 +68,8 @@ public class TopDownShooting : MonoBehaviour
           rangedAttackData);
 
         // shootingClip있으면 오디오클립 실행시켜라
-      //  if (shootingClip)
-      //      SoundManager.PlayClip(shootingClip);
+        if (shootingClip)
+            SoundManager.PlayClip(shootingClip);
     }
 
 

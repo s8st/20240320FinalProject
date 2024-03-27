@@ -38,9 +38,18 @@
 ###### RPG 제작하는 팀 참고: 12,13,15,18,19조  
 ---  
 
-> 이번 주 기본 게임 구성 만들기
 
-`deathzone 설정하기`
+<details >
+    <summary >  ⛔ 해결해야 할 문제들  </summary> 
+
+- [ ] deathzone 설정하기 --> 맵 테투리에 설정
+- [ ] 발사체 별로 충돌 이펙트 --> 강의의 파티클이나 에셋의 스프라이트
+- [ ] 몬스터 이동을 안하는 문제
+- [ ] 그림자 스프라이트 추가하기
+
+
+</details>  
+
 <br>
 
 
@@ -131,7 +140,7 @@ Remove 삭제
 
 ---
 
-### `🧾 참고 자료들 : `
+### `📚 참고 자료들 : `
 케릭터,맵,아이템,효과   :  [Assets](storageFiles/References/ref_character_map_fx.md)  
 사운드 :  [🔊Audio](storageFiles/References/ref_sound.md) 
 
