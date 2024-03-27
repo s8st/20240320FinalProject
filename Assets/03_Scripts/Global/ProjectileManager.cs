@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ProjectileManager : MonoBehaviour
 {
-  //  [SerializeField] private ParticleSystem _impactParticleSystem;
+    [SerializeField] private ParticleSystem _impactParticleSystem;
 
     public static ProjectileManager instance; //싱글턴
 
@@ -37,15 +37,15 @@ public class ProjectileManager : MonoBehaviour
     }
 
     // 이 위치에 파티클
-    //public void CreateImpactParticlesAtPostion(Vector3 position, RangedAttackData attackData)
-    //{
-    //    _impactParticleSystem.transform.position = position; // 파티클 시스템 위치 변경
-    //    ParticleSystem.EmissionModule em = _impactParticleSystem.emission;
-    //    em.SetBurst(0, new ParticleSystem.Burst(0, Mathf.Ceil(attackData.size * 5)));
-    //    ParticleSystem.MainModule mainModule = _impactParticleSystem.main;
-    //    mainModule.startSpeedMultiplier = attackData.size * 10f;
-    //    _impactParticleSystem.Play();
-    //}
+    public void CreateImpactParticlesAtPostion(Vector3 position, RangedAttackData attackData)
+    {
+        _impactParticleSystem.transform.position = position; // 파티클 시스템 위치 변경
+        ParticleSystem.EmissionModule em = _impactParticleSystem.emission;
+        em.SetBurst(0, new ParticleSystem.Burst(0, Mathf.Ceil(attackData.size * 5)));
+        ParticleSystem.MainModule mainModule = _impactParticleSystem.main;
+        mainModule.startSpeedMultiplier = attackData.size * 10f;
+        _impactParticleSystem.Play();
+    }
 
 
 }
