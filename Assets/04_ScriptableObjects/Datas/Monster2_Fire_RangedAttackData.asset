@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Monster2_Fire_RangedAttackData
   m_EditorClassIdentifier: 
   size: 2.5
-  delay: 0.15
+  delay: 1
   power: 2
   speed: 10
   target:

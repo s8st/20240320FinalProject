@@ -147,9 +147,9 @@ MonoBehaviour:
   canBePickupBy:
     serializedVersion: 2
     m_Bits: 256
-  pickupSound: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
+  pickupSound: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
   statsModifier:
   - statsChangeType: 0
     maxHealth: 0
     speed: 0
-    attackSO: {fileID: 11400000, guid: 21739e8815e9ff141aaeed7a157fa810, type: 2}
+    attackSO: {fileID: 11400000, guid: eedb4d1cd9000804481b0e9ef17f056c, type: 2}

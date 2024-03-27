@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Monster3_Snow_RangedAttackData
   m_EditorClassIdentifier: 
   size: 0.25
-  delay: 0.15
+  delay: 1
   power: 2
   speed: 10
   target:

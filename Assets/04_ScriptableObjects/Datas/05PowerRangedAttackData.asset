@@ -9,16 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bc26ca9c394b66499763aef26a882cd, type: 3}
-  m_Name: MoveSpeed_DefaultAttackData
+  m_Script: {fileID: 11500000, guid: 70d8aac60efc90349ad0bbd011f488e3, type: 3}
+  m_Name: 05PowerRangedAttackData
   m_EditorClassIdentifier: 
   size: 0
   delay: 0
-  power: 0
-  speed: 10
+  power: 1
+  speed: 0
   target:
     serializedVersion: 2
     m_Bits: 0
   isOnKnockback: 0
   knockbackPower: 0
   knockbackTime: 0
+  bulletNameTag: 
+  duration: 0
+  spread: 0
+  numberofProjectilesPerShot: 0
+  multipleProjectilesAngel: 0
+  projectileColor: {r: 0, g: 0, b: 0, a: 0}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5137992827531151959}
   - component: {fileID: 8203286780763423100}
   - component: {fileID: -631934167679599664}
+  - component: {fileID: -1658882153130967069}
   m_Layer: 0
   m_Name: small Potions_12
   m_TagString: Untagged
@@ -130,3 +131,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8125, y: 1.125}
   m_EdgeRadius: 0
+--- !u!114 &-1658882153130967069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6671618884538914238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0493754f7a0ed54a8c106603c1eb19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnPickup: 1
+  canBePickupBy:
+    serializedVersion: 2
+    m_Bits: 256
+  pickupSound: {fileID: 8300000, guid: 0c008ee3ee72a4362a35be25fa5de043, type: 3}
+  statsModifier:
+  - statsChangeType: 0
+    maxHealth: 1
+    speed: 0
+    attackSO: {fileID: 11400000, guid: 724c93b779f607446bc33ab114458af6, type: 2}

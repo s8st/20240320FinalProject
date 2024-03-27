@@ -1,3 +1,5 @@
+### 아직 미정....
+
 
 
 |물약아이템|이미지|능력치||
@@ -7,3 +9,13 @@
 |발사 거리||   발사 거리 +3||
 |폭발 범위||  +3 ??? ||
 |4가지 포함||    ||
+
+---  
+
+### 테스트 스텟
+
+
+||이동속도|발사속도|발사갯수|공격력|4가지 모두 포함하는 아이템 |
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|이미지|![image](https://github.com/s8st/20240320FinalProject/assets/153998744/539dcd23-d1d6-4199-a559-4775ec897241)|![image](https://github.com/s8st/20240320FinalProject/assets/153998744/440e882c-cfdf-4549-972f-fa63b02c5eb4)|![image](https://github.com/s8st/20240320FinalProject/assets/153998744/c12d42b7-3277-494c-8d6f-e5d7f0356751)|![image](https://github.com/s8st/20240320FinalProject/assets/153998744/09503133-fc62-4eb7-9069-a7e227b22a31)|![image](https://github.com/s8st/20240320FinalProject/assets/153998744/1436b291-053a-48d6-88c3-97fc5952a160)| 
+|증가량|+ 1|-0.1|+ 1|+ 1|모두|
