@@ -61,7 +61,7 @@
 
 |||
 |:------:|:------:|
-|[물약아이템](storageFiles\아이템\Item.md)|케릭터|
+|[물약아이템](storageFiles\Item\Item.md)|케릭터|
 
 
 
