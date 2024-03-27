@@ -48,12 +48,29 @@
 - [ ] 몬스터 애니메이션 
 - [ ] 발사체마다 사운드 
 - [ ] 그림자 스프라이트 추가하기
+- [ ] 아이템마다 AttackSo를 만들고 스탯 구분하기
+- [ ] 물약 아이템 statsModifier에 AttackSo추가하기
 
 
 </details>  
 
 <br>
 
+<details >
+    <summary >케릭터, 아이템 요약 작성중   </summary> 
+
+|||
+|:------:|:------:|
+|[물약아이템](storageFiles\아이템\Item.md)|케릭터|
+
+
+
+
+
+</details>  
+
+
+<br>  
 
 ```mermaid
 gantt

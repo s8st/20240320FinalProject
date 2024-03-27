@@ -43,7 +43,7 @@ public class PlayerInputController : TopDownCharacterController
     //public void OnFire(InputValue value)
     public void OnFire(InputValue value)
     {
-        Debug.Log("OnFire" + value.ToString());
+       // Debug.Log("OnFire" + value.ToString());
 
         //  IsAttacking = value.isPressed;
         IsAttacking = value.isPressed;
