@@ -37,6 +37,12 @@
 
 ###### RPG 제작하는 팀 참고: 12,13,15,18,19조  
 ---  
+게임 테스트 QR code
+
+https://m.site.naver.com/1l5Jj
+
+![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)
+
 
 
 <details >
