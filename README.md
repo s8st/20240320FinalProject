@@ -88,6 +88,12 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 <br>  
 
 
+---
+## `4월 5일까지 인벤토리와 아이템 등 완성하기`
+## `4월 12일까지 정리한 에셋 적용`
+--- 
+inputsystem 사용법 : 
+https://www.youtube.com/watch?v=dsLBzrbo-Vs
 
 ---  
 
@@ -119,6 +125,8 @@ gantt
 ```
 
 
+
+
 ### `📝 개발일지  `
 
 
@@ -132,8 +140,6 @@ gantt
 |        0329   |        [0329 :기존 작업과 새 작업 차이](storageFiles/trouble/0329T.md)    |
 
 
-inputsystem 사용법 : 
-https://www.youtube.com/watch?v=dsLBzrbo-Vs
 
 
 
