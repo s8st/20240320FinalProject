@@ -39,10 +39,14 @@
 ---  
 게임 테스트 QR code
 
-https://m.site.naver.com/1l5Jj
+https://m.site.naver.com/1l5Jj  
 
-![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)
+![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)  
 
+오류 창고 하나 만들어야 겠다
+![image](https://github.com/s8st/20240320FinalProject/assets/153998744/0123955e-bd86-4957-96e0-95287e63fba6)  
+
+<br>  
 
 
 <details >
