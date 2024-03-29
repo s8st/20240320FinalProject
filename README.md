@@ -143,7 +143,6 @@ gantt
 
 
 
-
 --- 
 
 <details >
@@ -236,7 +235,24 @@ Remove 삭제
 ```
 
 
+<details >
+    <summary > 참고 영상  </summary> 
 
+
+### `💡 참고 영상  `
+
+|    |     |
+|:------------------:|:------------------:|
+|[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)||
+|||
+|||
+|||
+|||
+
+
+
+
+</details>  
 
 
 ---
