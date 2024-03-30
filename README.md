@@ -37,14 +37,10 @@
 
 ###### RPG 제작하는 팀 참고: 12,13,15,18,19조  
 ---  
-게임 테스트 QR code
 
-https://m.site.naver.com/1l5Jj  
 
-![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)  
 
-오류 창고 하나 만들어야 겠다
-![image](https://github.com/s8st/20240320FinalProject/assets/153998744/0123955e-bd86-4957-96e0-95287e63fba6)  
+ 
 
 <br>  
 
@@ -274,6 +270,14 @@ Remove 삭제
 ---  
 
 
+
+
+||링크|QR|
+|--|:--:|:--:|
+|0329 입문 강의 완료 <br> - 인벤토리 제작 전<br> - 장착형 아이템 만드는 중 |[webgl test](https://m.site.naver.com/1l5Jj  )|![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)  |
+
+
+---  
 
 
 <!-- <details >
