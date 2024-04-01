@@ -18,7 +18,7 @@ public class InteractionManager : MonoBehaviour
     public float maxCheckDistance;
     public LayerMask layerMask;
 
-
+    private TopDownCharacterController _controller;
 
     private GameObject curInteractGameobject;
     private IInteractable curInteractable;
@@ -31,6 +31,9 @@ public class InteractionManager : MonoBehaviour
     void Start()
     {
         camera = Camera.main; //main 태그를 가지는 카메라 한개, 싱글턴 사용하듯이 하나만 가르킴
+
+        _controller = GetComponent<TopDownCharacterController>();
+
     }
 
     // Update is called once per frame
@@ -57,7 +60,8 @@ public class InteractionManager : MonoBehaviour
                 {
                     curInteractGameobject = hit.collider.gameObject; //충돌한 객체
                     curInteractable = hit.collider.GetComponent<IInteractable>();
-                    SetPromptText();
+                    Debug.Log(curInteractable);
+                     SetPromptText();
                 }
             }
             else
@@ -78,16 +82,18 @@ public class InteractionManager : MonoBehaviour
     }
 
     //Player의 inspector에서 Player Input컴포넌트의 events아래에 player아래에 interact에 본 객체 Player를 연결하고 InteractionManager.OnInteractInput연결하기
-    public void OnInteractInput(InputAction.CallbackContext callbackContext)
-    {
-        if (callbackContext.phase == InputActionPhase.Started/*막 눌렸다*/ && curInteractable != null)
-        // e가 눌려졌고 눌린 시점에 바라보고 있는 게 있다면
-        {
-            //아이템을 먹으로 상호작용을 진행하고 초기화하고 안보이게
-            curInteractable.OnInteract();
-            curInteractGameobject = null;
-            curInteractable = null;
-            promptText.gameObject.SetActive(false);
-        }
-    }
+    //public void OnInteractInput(InputAction.CallbackContext callbackContext)
+    //{
+    //    if (callbackContext.phase == InputActionPhase.Started/*막 눌렸다*/ && curInteractable != null)
+    //    // e가 눌려졌고 눌린 시점에 바라보고 있는 게 있다면
+    //    {
+    //        //아이템을 먹으로 상호작용을 진행하고 초기화하고 안보이게
+    //        curInteractable.OnInteract();
+    //        curInteractGameobject = null;
+    //        curInteractable = null;
+    //        promptText.gameObject.SetActive(false);
+    //    }
+    //}
+
+   
 }

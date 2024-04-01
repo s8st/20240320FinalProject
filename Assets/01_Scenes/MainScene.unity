@@ -13813,19 +13813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8f03dd2f78a174e8bf54b9bbf8ed81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  curMovementInput: {x: 0, y: 0}
-  jumpForce: 0
-  groundLayerMask:
-    m_Bits: 759
-  cameraContainer: {fileID: 0}
-  minXLook: 0
-  maxXLook: 0
-  camCurXRot: 0
-  lookSensitivity: 0
-  mouseDelta: {x: 0, y: 0}
-  canLook: 1
-  _rigidbody: {fileID: 0}
 --- !u!114 &382662040
 MonoBehaviour:
   m_ObjectHideFlags: 0
