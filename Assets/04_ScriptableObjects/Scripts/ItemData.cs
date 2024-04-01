@@ -30,7 +30,7 @@ public class ItemData : ScriptableObject
     [Header("Info")]
     public string displayName;
     public string description;
-    public ItemType type; // esource, Equipable, Consumable 총 3가지 선택형 역삼각형
+    public ItemType type; // resource, Equipable, Consumable 총 3가지 선택형 역삼각형
     public Sprite icon; // 스프라이트 끼워넣을 곳
     public GameObject dropPrefab; //
 

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: _Sword
   m_EditorClassIdentifier: 
   displayName: Sword
-  description: Attacking
+  description: "\uACF5\uACA9\uC6A9 \uD669\uAE08 \uCE7C"
   type: 1
   icon: {fileID: 21300024, guid: ddf8838d0a06d8d4c9dec9e3bed69260, type: 3}
   dropPrefab: {fileID: 0}

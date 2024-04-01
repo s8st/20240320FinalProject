@@ -37,7 +37,7 @@
 
 //    void Start()
 //    {
-//       // Cursor.lockState = CursorLockMode.Locked; // 커서 안보이게 락= 안보이게 잠그겠다
+//        // Cursor.lockState = CursorLockMode.Locked; // 커서 안보이게 락= 안보이게 잠그겠다
 //    }
 
 //    private void FixedUpdate()

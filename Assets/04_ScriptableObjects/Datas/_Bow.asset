@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9868d8938984e3040b062a55b5a87ae3, type: 3}
-  m_Name: _Rock
+  m_Name: _Bow
   m_EditorClassIdentifier: 
-  displayName: Rock
-  description: this is Rock
-  type: 0
-  icon: {fileID: 21300016, guid: ddf8838d0a06d8d4c9dec9e3bed69260, type: 3}
+  displayName: Bow
+  description: "\uACF5\uACA9\uC6A9 \uD65C"
+  type: 1
+  icon: {fileID: 21300000, guid: a6823df088c68c44a9cb3581a485e0bd, type: 3}
   dropPrefab: {fileID: 0}
-  canStack: 1
-  maxStackAmount: 12
+  canStack: 0
+  maxStackAmount: 0
   consumables: []
   equipPrefab: {fileID: 0}

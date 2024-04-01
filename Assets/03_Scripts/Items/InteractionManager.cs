@@ -18,6 +18,8 @@ public class InteractionManager : MonoBehaviour
     public float maxCheckDistance;
     public LayerMask layerMask;
 
+
+
     private GameObject curInteractGameobject;
     private IInteractable curInteractable;
 
@@ -40,7 +42,12 @@ public class InteractionManager : MonoBehaviour
 
             // Screen : 화면
             //카메라에서 스크린포인트로, 광선을 쏴서 되돌아오는 정보를 이용
-            Ray ray = camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2)/*화면의 중앙*/);
+            // Ray ray = camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2)/*화면의 중앙*/);
+
+            //Ray ray = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y, -Camera.main.transform.position.z));
+
+            Ray ray = camera.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
+
             RaycastHit hit; // 충돌 정보
 
             // ref :반환값이 없을 수도  out : 반드시 반환값이 있음 - null이거나 다른 정보가 있음
