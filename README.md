@@ -98,8 +98,7 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 - [ ] 4월 5일까지 인벤토리와 아이템 등 완성하기
 - [ ] 4월 12일까지 정리한 에셋 적용
 
-inputsystem 사용법 : 
-https://www.youtube.com/watch?v=dsLBzrbo-Vs
+
 
 ---  
 
@@ -244,13 +243,14 @@ Remove 삭제
 <details >
     <summary > ⚓ 참고 영상  </summary> 
 
+ 
 
 
 
 |    |     |
 |:------------------:|:------------------:|
 |[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)||
-|||
+||[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|
 |||
 |||
 |||
