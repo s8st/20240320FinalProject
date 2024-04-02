@@ -92,6 +92,9 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 
 
 <br>  
+https://learn.microsoft.com/ko-kr/dotnet/csharp/    
+
+https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html  
 
 
 
