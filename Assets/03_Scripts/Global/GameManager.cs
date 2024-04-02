@@ -18,6 +18,7 @@ public class Character
     public CharacterType characterType;
     public Sprite CharacterSprite;
     public RuntimeAnimatorController AnimatorController;
+
 }
 
 

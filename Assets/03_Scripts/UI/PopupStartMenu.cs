@@ -15,6 +15,11 @@ public class PopupStartMenu : MonoBehaviour
     [SerializeField] private GameObject information;
     [SerializeField] private GameObject selectCharacter;
 
+    [SerializeField] private GameObject player0;
+    [SerializeField] private GameObject player1;
+    [SerializeField] private GameObject player2;
+    [SerializeField] private GameObject player3;
+
     private CharacterType characterType;
     
 
@@ -36,6 +41,29 @@ public class PopupStartMenu : MonoBehaviour
         information.SetActive(true);
 
 
+        //if (index == 0)
+        //{
+        //    player0.SetActive(true);
+        //}
+        //if (index == 1)
+        //{
+        //    player1.SetActive(true);
+        //}
+        //if (index == 2)
+        //{
+        //    player2.SetActive(true);
+        //}
+        //if (index == 3)
+        //{
+        //    player3.SetActive(true);
+        //}
+
+
+
+
+
+
+
     }
 
     public void OnClickJoin()
@@ -48,6 +76,10 @@ public class PopupStartMenu : MonoBehaviour
 
         //GameManager.instance.playerName.text = inputField.text;
         GameManager.instance.SetCharacter(characterType, inputField.text);
+
+        
+
+       
 
         Destroy(gameObject);
 
