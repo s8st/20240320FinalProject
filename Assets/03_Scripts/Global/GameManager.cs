@@ -12,10 +12,17 @@ public enum CharacterType
     Bubble,Bomber,Snowbros,Tumblepop
 }
 
+public enum PlayerType
+{
+    Player0,Player1, Player2, Player3
+}
+
+
 [System.Serializable]
 public class Character
 {
     public CharacterType characterType;
+   // public PlayerType playerType;
     public Sprite CharacterSprite;
     public RuntimeAnimatorController AnimatorController;
 
@@ -66,12 +73,29 @@ public class GameManager : MonoBehaviour
     public void SetCharacter(CharacterType characterType, string name)
     {
         var character = GameManager.instance.CharacterList.Find(item => item.characterType == characterType);
-        
+
         playerAnimator.runtimeAnimatorController = character.AnimatorController;
         playerName.text = name;
 
 
     }
+
+    //public void SetCharacter(PlayerType playerType, string name)
+    //{
+    //    var player = GameManager.instance.CharacterList.Find(item => item.playerType == playerType);
+
+    //    playerAnimator.runtimeAnimatorController = player.AnimatorController;
+    //    playerName.text = name;
+
+    //    // player.SetActive(true);
+
+    //}
+
+
+
+
+
+
 
     private void Awake()
     {

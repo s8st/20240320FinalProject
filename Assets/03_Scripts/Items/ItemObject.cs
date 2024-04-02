@@ -13,7 +13,7 @@ public class ItemObject : MonoBehaviour, IInteractable
 
     public void OnInteract() //e키 눌렀을때
     {
-   //     Inventory.instance.AddItem(item); // 인벤토리에 넣기
+      Inventory.instance.AddItem(item); // 인벤토리에 넣기
         Destroy(gameObject);
     }
 }
