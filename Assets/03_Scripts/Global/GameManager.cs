@@ -6,8 +6,32 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+public enum CharacterType
+{
+    Bubble,Bomber,Snowbros,Tumblepop
+}
+
+[System.Serializable]
+public class Character
+{
+    public CharacterType characterType;
+    public Sprite CharacterSprite;
+    public RuntimeAnimatorController AnimatorController;
+}
+
+
 public class GameManager : MonoBehaviour
 {
+    [Header("CharacterSelect")]
+    public List<Character> CharacterList = new List<Character>();
+
+    public Animator playerAnimator;
+    public  Text playerName;
+
+
+    [Header("GManager=======================")]
+    //==============================================================
     public static GameManager instance; //½Ì±ÛÅæÈ¯
 
     public Transform Player { get; private set; }
@@ -36,6 +60,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CharacterStats defaultStats;
     [SerializeField] private CharacterStats rangedStats;
 
+
+
+    public void SetCharacter(CharacterType characterType, string name)
+    {
+        var character = GameManager.instance.CharacterList.Find(item => item.characterType == characterType);
+        
+        playerAnimator.runtimeAnimatorController = character.AnimatorController;
+        playerName.text = name;
+
+
+    }
 
     private void Awake()
     {
