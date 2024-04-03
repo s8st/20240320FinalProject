@@ -153,10 +153,10 @@ gantt
 
 
 | 0401 ~ 0405    |  문제점    |
-|:------------------:|:------------------:|
+|:------------------|------------------:|
 |0401|[0401:아이템문제](storageFiles/trouble/0401T.md)|
-|[0402:케릭터 선택창](storageFiles/schedule/0402.md)|[0402:시네머신confiner](storageFiles/trouble/0402T.md)|
-|0403|[0403:스크립트-프리팹오류](storageFiles/trouble/0403T.md)|
+|[0402: 케릭터 선택창](storageFiles/schedule/0402.md)|[0402:시네머신confiner](storageFiles/trouble/0402T.md)|
+|[0403: InputSystem](storageFiles/schedule/0403.md)|[0403:스크립트-프리팹오류](storageFiles/trouble/0403T.md)|
 |0404||
 |0405||
 
