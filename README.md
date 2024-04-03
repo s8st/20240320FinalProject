@@ -267,7 +267,7 @@ Remove 삭제
 |:------------------:|:------------------:|
 |[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)||
 ||[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|
-|||
+|[게코딩 GeCoding](https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0)||
 |||
 |||
 
