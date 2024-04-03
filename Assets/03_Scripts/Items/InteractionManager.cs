@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public interface IInteractable
 {
@@ -95,5 +96,7 @@ public class InteractionManager : MonoBehaviour
     //    }
     //}
 
+    // public void OnInteract(InputValue value)
    
+
 }

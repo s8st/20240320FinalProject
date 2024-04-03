@@ -65,13 +65,22 @@ public class Inventory : MonoBehaviour
         ClearSeletecItemWindow();
     }
 
-    public void OnInventoryButton(InputAction.CallbackContext callbackContext)
+    //public void OnInventoryButton(InputAction.CallbackContext callbackContext)
+    //{
+    //    if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+    //    {
+    //        Toggle();
+    //    }
+    //}
+
+    public void OnInventoryButton(InputAction value)
     {
-        if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+        if (value.phase == InputActionPhase.Started)/*막 눌려졌다면*/
         {
             Toggle();
         }
     }
+
 
 
     public void Toggle()
@@ -189,6 +198,7 @@ public class Inventory : MonoBehaviour
         unEquipButton.SetActive(selectedItem.item.type == ItemType.Equipable && uiSlots[index].equipped); // 아이템을 장착중인가?
         dropButton.SetActive(true); // 항상 보이게
     }
+
 
     private void ClearSeletecItemWindow()
     {
