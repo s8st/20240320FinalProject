@@ -51,15 +51,23 @@ public class PlayerInputController : TopDownCharacterController
 
     }
 
-    public void OnInteract(InputValue value)
-    {
-         Debug.Log("OnInteract" + value.ToString());
-        Vector2 newAim = value.Get<Vector2>(); // 마우스 포지션
-        Vector2 worldPos = _camera.ScreenToWorldPoint(newAim); // 마우스 위치를 월드좌표값으로 변경
-                                                              //  newAim = (worldPos - (Vector2)transform.position).normalized;
+    //public void OnInteract(InputValue value)
+    //{
+    //    //Debug.Log("OnInteract" + value.ToString());
 
-        CallInteractEvent(newAim);
+    //    Debug.Log("OnInteract_플레이어인풋컨트롤러.cs" + value.ToString());
+    //    Vector2 newAim = value.Get<Vector2>(); // 마우스 포지션
+    //    Vector2 worldPos = _camera.ScreenToWorldPoint(newAim); // 마우스 위치를 월드좌표값으로 변경
+    //                                                          //  newAim = (worldPos - (Vector2)transform.position).normalized;
+
+    //    CallInteractEvent(newAim);
+    //}
+
+    public void OnPickItem(InputValue value)
+    {
+        IsAttacking = value.isPressed;
     }
+
 
 
 }

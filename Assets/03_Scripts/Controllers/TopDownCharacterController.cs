@@ -11,6 +11,8 @@ public class TopDownCharacterController : MonoBehaviour
     public event Action<Vector2> OnLookEvent;
     public event Action<AttackSO> OnAttackEvent;
 
+
+    public event Action<AttackSO> OnPickItemEvent;
     public event Action<Vector2> OnInteractEvent;
 
     private float _timeSinceLastAttack = float.MaxValue;
@@ -76,10 +78,18 @@ public class TopDownCharacterController : MonoBehaviour
         OnAttackEvent?.Invoke(attackSO);
     }
 
+
     public void CallInteractEvent(Vector2 direction)
     {
         OnInteractEvent?.Invoke(direction);
     }
+
+    public void CallPickitemEvent(AttackSO attackSO)
+    {
+        
+          OnPickItemEvent?.Invoke(attackSO);
+    }
+    
 
 
 
