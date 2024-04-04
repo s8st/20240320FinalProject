@@ -66,6 +66,7 @@ public class PlayerInputController : TopDownCharacterController
     public void OnPickItem(InputValue value)
     {
         IsAttacking = value.isPressed;
+       // CallPickItemEvent(value);
     }
 
 

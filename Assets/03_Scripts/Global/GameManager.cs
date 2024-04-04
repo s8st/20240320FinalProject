@@ -54,8 +54,8 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
-    private int waveSpawnCount = 0;
-    private int waveSpawnPosCount = 0;
+    private int waveSpawnCount = 6;
+    private int waveSpawnPosCount = 6;
 
     public float spawnInterval = .5f;
     public List<GameObject> enemyPrefebs = new List<GameObject>();
@@ -129,7 +129,42 @@ public class GameManager : MonoBehaviour
         StartCoroutine("StartNextWave"); //지금 동작하고 gameOver()에서 StopAllCoroutines 멈추게
         //1. 루틴을 제공해서 코루틴을 반환 : 스트링값으로는 잘 안멈춘다??
         //2. 메서드 네임을 제공하고 코루틴 반환 : 메서드네임이나 코루틴으로 정지
+       // SpawnMonster();
+
     }
+
+    //private void Update()
+    //{
+    //    SpawnMonster();
+    //}
+
+    //private  void SpawnMonster()
+    //{
+    //    //while (true)
+
+    //    while (true)
+    //    {
+    //        if (currentSpawnCount == 0) // 소환되어 있는 객체들의 갯수: 0이라면 처음이거나 다 잡았거나
+    //        {
+
+
+
+
+    //            GameObject enemy = Instantiate(enemyPrefebs[6], spawnPositionsRoot.position, Quaternion.identity);
+    //            enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+    //            enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
+
+    //            //몬스터를 생성할 때 지워줘야
+    //            enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
+    //            enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
+
+    //            currentSpawnCount++;
+    //            //yield return new WaitForSeconds(spawnInterval);
+    //            return;
+
+    //        }
+    //    }
+    //}
 
     IEnumerator StartNextWave()
     {
@@ -137,58 +172,129 @@ public class GameManager : MonoBehaviour
         {
             if (currentSpawnCount == 0) // 소환되어 있는 객체들의 갯수: 0이라면 처음이거나 다 잡았거나
             {
-                UpdateWaveUI(); // 웨이브 최신화하기
+                //   UpdateWaveUI(); // 웨이브 최신화하기
                 yield return new WaitForSeconds(2f); // 2초후 다음 코드로
 
-                if (currentWaveIndex % 1 == 0) // 20 --> 1 난이도 조절
-                {
-                    RandomUpgrade(); //적들에게 랜덤업그레이드 추가해줌
-                }
+                //if (currentWaveIndex % 1 == 0) // 20 --> 1 난이도 조절
+                //{
+                //    RandomUpgrade(); //적들에게 랜덤업그레이드 추가해줌
+                //}
 
-                if (currentWaveIndex % 10 == 0) //10의 배수라면
-                {
-                    //waveSpawnPosCount : 몬스터 생성되는 곳의 갯수 증가
-                    // waveSpawnPosCount + 1이 spawnPostions.Count보다 더 크다면 원래 waveSpawnPosCount를 사용 아니라면  + 1
-                    waveSpawnPosCount = waveSpawnPosCount + 1 > spawnPostions.Count ? waveSpawnPosCount : waveSpawnPosCount + 1;
-                    waveSpawnCount = 0;
-                }
+                //if (currentWaveIndex % 10 == 0) //10의 배수라면
+                //{
+                //    //waveSpawnPosCount : 몬스터 생성되는 곳의 갯수 증가
+                //    // waveSpawnPosCount + 1이 spawnPostions.Count보다 더 크다면 원래 waveSpawnPosCount를 사용 아니라면  + 1
+                //    waveSpawnPosCount = waveSpawnPosCount + 1 > spawnPostions.Count ? waveSpawnPosCount : waveSpawnPosCount + 1;
+                //    waveSpawnCount = 0;
+                //}
 
-                if (currentWaveIndex % 5 == 0)
-                {
-                    // 5번째 마다 보상 생성
-                    CreateReward();
-                }
+                //if (currentWaveIndex % 5 == 0)
+                //{
+                //    // 5번째 마다 보상 생성
+                //    //   CreateReward();
+                //}
 
-                if (currentWaveIndex % 3 == 0)
-                {
-                    waveSpawnCount += 1;
-                }
+                //if (currentWaveIndex % 3 == 0)
+                //{
+                //    waveSpawnCount += 1;
+                //}
+
                 // 10개마다 생성하는 포지션을 늘리고 3개마다 한번에 만들어지는 몬스터를 늘린다
 
-                for (int i = 0; i < waveSpawnPosCount; i++)
-                {
-                    int posIdx = Random.Range(0, spawnPostions.Count);
-                    for (int j = 0; j < waveSpawnCount; j++)
-                    {
-                        int prefabIdx = Random.Range(0, enemyPrefebs.Count);
-                        GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
-                        enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+                //   for (int i = 0; i < waveSpawnPosCount; i++)
+                //  {
+                // int posIdx = Random.Range(0, spawnPostions.Count);
+                //for (int j = 0; j < waveSpawnCount; j++)
+                //{
+                //int prefabIdx = Random.Range(0, enemyPrefebs.Count);
+                //  int prefabIdx = enemyPrefebs.Count;
+                //GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
+                GameObject enemy = Instantiate(enemyPrefebs[6], spawnPositionsRoot.position, Quaternion.identity);
+                enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+                enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
+                //몬스터를 생성할 때 지워줘야
+                enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
+                enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
 
-                        //몬스터를 생성할 때 지워줘야
-                        enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
-                        enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
+                currentSpawnCount++;
+                yield return new WaitForSeconds(spawnInterval);
+                //    }
+                //}
 
-                        currentSpawnCount++;
-                        yield return new WaitForSeconds(spawnInterval);
-                    }
-                }
-
-                currentWaveIndex++;
+                //  currentWaveIndex++;
             }
 
             yield return null;
         }
     }
+
+
+
+
+
+
+
+
+    //IEnumerator StartNextWave()
+    //{
+    //    while (true) // 무한루프에서 yield return null ---> Uodate() 쓰는 것과 같다. deltaTime사용가능
+    //    {
+    //        if (currentSpawnCount == 0) // 소환되어 있는 객체들의 갯수: 0이라면 처음이거나 다 잡았거나
+    //        {
+    //          UpdateWaveUI(); // 웨이브 최신화하기
+    //            yield return new WaitForSeconds(2f); // 2초후 다음 코드로
+
+    //            if (currentWaveIndex % 1 == 0) // 20 --> 1 난이도 조절
+    //            {
+    //                RandomUpgrade(); //적들에게 랜덤업그레이드 추가해줌
+    //            }
+
+    //            if (currentWaveIndex % 10 == 0) //10의 배수라면
+    //            {
+    //                //waveSpawnPosCount : 몬스터 생성되는 곳의 갯수 증가
+    //                // waveSpawnPosCount + 1이 spawnPostions.Count보다 더 크다면 원래 waveSpawnPosCount를 사용 아니라면  + 1
+    //                waveSpawnPosCount = waveSpawnPosCount + 1 > spawnPostions.Count ? waveSpawnPosCount : waveSpawnPosCount + 1;
+    //                waveSpawnCount = 0;
+    //            }
+
+    //            if (currentWaveIndex % 5 == 0)
+    //            {
+    //                // 5번째 마다 보상 생성
+    //                CreateReward();
+    //            }
+
+    //            if (currentWaveIndex % 3 == 0)
+    //            {
+    //                waveSpawnCount += 1;
+    //            }
+    //            // 10개마다 생성하는 포지션을 늘리고 3개마다 한번에 만들어지는 몬스터를 늘린다
+
+    //            for (int i = 0; i < waveSpawnPosCount; i++)
+    //            {
+    //                int posIdx = Random.Range(0, spawnPostions.Count);
+    //                for (int j = 0; j < waveSpawnCount; j++)
+    //                {
+    //                    int prefabIdx = Random.Range(0, enemyPrefebs.Count);
+    //                    GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
+    //                    enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+
+    //                    //몬스터를 생성할 때 지워줘야
+    //                    enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
+    //                    enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
+
+    //                    currentSpawnCount++;
+    //                    yield return new WaitForSeconds(spawnInterval);
+    //                }
+    //            }
+
+    //            currentWaveIndex++;
+    //        }
+
+    //        yield return null;
+    //    }
+    //}
+
+
 
 
 
@@ -213,11 +319,11 @@ public class GameManager : MonoBehaviour
         StopAllCoroutines(); // 동작하는 모든 코루틴을 멈춰라
     }
 
-    private void UpdateWaveUI()
-    {
-        // waveText.text = 
-        waveText.text = (currentWaveIndex + 1).ToString();
-    }
+    //private void UpdateWaveUI()
+    //{
+    //    // waveText.text = 
+    //    waveText.text = (currentWaveIndex + 1).ToString();
+    //}
 
     public void RestartGame()
     {
@@ -280,7 +386,7 @@ public class GameManager : MonoBehaviour
                 break;
 
             case 5:
-                RangedAttackData rangedAttackData = rangedStats.attackSO as RangedAttackData; // as가 뭐였더라??
+                RangedAttackData rangedAttackData = rangedStats.attackSO as RangedAttackData; 
                 rangedAttackData.numberofProjectilesPerShot += 1;
                 break;
 

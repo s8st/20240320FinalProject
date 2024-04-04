@@ -36,7 +36,11 @@ public class InteractionManager : MonoBehaviour
 
         _controller = GetComponent<TopDownCharacterController>();
 
+     //   _controller.OnPickItemEvent += OnPickItem;
+
     }
+
+    
 
     // Update is called once per frame
     void Update()
