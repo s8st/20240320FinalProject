@@ -1,9 +1,4 @@
 <!-- 주석 -->
-ecbkarr12253
-
-79106497118327
-
-
 
 
 
@@ -102,7 +97,6 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 
 <br>  
 
-https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0  
 
 
 https://learn.microsoft.com/ko-kr/dotnet/csharp/    
