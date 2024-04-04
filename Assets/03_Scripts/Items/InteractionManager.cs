@@ -101,9 +101,26 @@ public class InteractionManager : MonoBehaviour
     //    }
     //}
 
-    // public void OnInteract(InputValue value)
+
+
+    public void OnInteractInput(InputAction.CallbackContext callbackContext)
+    {
+        if (callbackContext.phase == InputActionPhase.Started/*막 눌렸다*/ && curInteractable != null)
+        // e가 눌려졌고 눌린 시점에 바라보고 있는 게 있다면
+        {
+            //아이템을 먹으로 상호작용을 진행하고 초기화하고 안보이게
+            curInteractable.OnInteract();
+            curInteractGameobject = null;
+            curInteractable = null;
+            promptText.gameObject.SetActive(false);
+        }
+    }
+
+
+
+    //public void OnInteract(InputValue value)
     //{
-    //    if (value.phase == InputActionPhase.Started/*막 눌렸다*/ && curInteractable != null)
+    //    if (value.isPressed && curInteractable != null)
     //    // e가 눌려졌고 눌린 시점에 바라보고 있는 게 있다면
     //    {
     //        //아이템을 먹으로 상호작용을 진행하고 초기화하고 안보이게
@@ -112,6 +129,6 @@ public class InteractionManager : MonoBehaviour
     //        curInteractable = null;
     //        promptText.gameObject.SetActive(false);
     //    }
-
+    //}
 
 }

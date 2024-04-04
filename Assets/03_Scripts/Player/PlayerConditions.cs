@@ -55,82 +55,82 @@ public class Condition
 // 클래스는 다중 상속이 안되지만 인터페이스는 다중 상속 가능
 public class PlayerConditions : MonoBehaviour/*, IDamagable*/
 {
-   // // [System.Serializable] ---> 상단에서 추가한 이유는 Condition을 가져오지 못하기 때문에
-   // public Condition health;
+    //// [System.Serializable] ---> 상단에서 추가한 이유는 Condition을 가져오지 못하기 때문에
+    //public Condition health;
 
-   // // 인스펙터에서 health아래로 아래의 condition클래스의 필드가 나타남
-   // //public float maxValue;
-   // //public float startValue;
-   // //public float regenRate;
-   // //public float decayRate;
-   // //public Image uiBar;
+    //// 인스펙터에서 health아래로 아래의 condition클래스의 필드가 나타남
+    ////public float maxValue;
+    ////public float startValue;
+    ////public float regenRate;
+    ////public float decayRate;
+    ////public Image uiBar;
 
-   // public Condition hunger;
-   // public Condition stamina;
-   // //public Condition test4;
-   // //public Condition test5;
+    //public Condition hunger;
+    //public Condition stamina;
+    ////public Condition test4;
+    ////public Condition test5;
 
 
-   // public float noHungerHealthDecay;
+    //public float noHungerHealthDecay;
 
-   // //데미지를 받았을때 처리할 유니티 이벤트
-   //// public UnityEvent onTakeDamage;
+    ////데미지를 받았을때 처리할 유니티 이벤트
+    //// public UnityEvent onTakeDamage;
 
-   // void Start()
-   // {
-   //     // 각각의 값을 시작값으로 
-   //     health.curValue = health.startValue;
-   //     hunger.curValue = hunger.startValue;
-   //     stamina.curValue = stamina.startValue;
-   // }
+    //void Start()
+    //{
+    //    // 각각의 값을 시작값으로 
+    //    health.curValue = health.startValue;
+    //    hunger.curValue = hunger.startValue;
+    //    stamina.curValue = stamina.startValue;
+    //}
 
-   // // Update is called once per frame
-   // void Update()
-   // {
-   //     hunger.Subtract(hunger.decayRate * Time.deltaTime);
-   //     stamina.Add(stamina.regenRate * Time.deltaTime); //회복
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    hunger.Subtract(hunger.decayRate * Time.deltaTime);
+    //    stamina.Add(stamina.regenRate * Time.deltaTime); //회복
 
-   //     if (hunger.curValue == 0.0f)
-   //         // 0이면health 깍기
-   //         health.Subtract(noHungerHealthDecay * Time.deltaTime);
+    //    if (hunger.curValue == 0.0f)
+    //        // 0이면health 깍기
+    //        health.Subtract(noHungerHealthDecay * Time.deltaTime);
 
-   //     // health가 0이 되면 Die
-   //     if (health.curValue == 0.0f)
-   //         Die();
+    //    // health가 0이 되면 Die
+    //    if (health.curValue == 0.0f)
+    //        Die();
 
-   //     health.uiBar.fillAmount = health.GetPercentage();
-   //     hunger.uiBar.fillAmount = hunger.GetPercentage();
-   //     stamina.uiBar.fillAmount = stamina.GetPercentage();
-   // }
+    //    health.uiBar.fillAmount = health.GetPercentage();
+    //    hunger.uiBar.fillAmount = hunger.GetPercentage();
+    //    stamina.uiBar.fillAmount = stamina.GetPercentage();
+    //}
 
-   // public void Heal(float amount)
-   // {
-   //     health.Add(amount);
-   // }
+    //public void Heal(float amount)
+    //{
+    //    health.Add(amount);
+    //}
 
-   // public void Eat(float amount)
-   // {
-   //     hunger.Add(amount);
-   // }
+    //public void Eat(float amount)
+    //{
+    //    hunger.Add(amount);
+    //}
 
-   // public bool UseStamina(float amount)
-   // {
-   //     if (stamina.curValue - amount < 0)
-   //         return false; // amount가 더 많을때 false반환
+    //public bool UseStamina(float amount)
+    //{
+    //    if (stamina.curValue - amount < 0)
+    //        return false; // amount가 더 많을때 false반환
 
-   //     stamina.Subtract(amount); // 아니라면 스테미나 사용하고 true반환
-   //     return true;
-   // }
+    //    stamina.Subtract(amount); // 아니라면 스테미나 사용하고 true반환
+    //    return true;
+    //}
 
-   // public void Die()
-   // {
-   //     Debug.Log("플레이어가 죽었다.");
-   // }
+    //public void Die()
+    //{
+    //    Debug.Log("플레이어가 죽었다.");
+    //}
 
-   // // 인터페이스로 다중상속, 여기서 구현하고 있음
-   // public void TakePhysicalDamage(int damageAmount)
-   // {
-   //     health.Subtract(damageAmount);
-   //   //  onTakeDamage?.Invoke(); // null체크 후 실행
-   // }
+    //// 인터페이스로 다중상속, 여기서 구현하고 있음
+    //public void TakePhysicalDamage(int damageAmount)
+    //{
+    //    health.Subtract(damageAmount);
+    //    //  onTakeDamage?.Invoke(); // null체크 후 실행
+    //}
 }

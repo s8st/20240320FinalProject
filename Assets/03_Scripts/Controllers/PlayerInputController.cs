@@ -7,6 +7,8 @@ public class PlayerInputController : TopDownCharacterController
 {
     private Camera _camera;
 
+
+
     //private void Awake()
     protected override void Awake()
     {
@@ -65,8 +67,8 @@ public class PlayerInputController : TopDownCharacterController
 
     public void OnPickItem(InputValue value)
     {
-        IsAttacking = value.isPressed;
-       // CallPickItemEvent(value);
+        //  IsAttacking = value.isPressed;
+        CallPickItemEvent(value);
     }
 
 

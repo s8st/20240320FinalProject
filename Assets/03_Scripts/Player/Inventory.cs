@@ -65,13 +65,13 @@ public class Inventory : MonoBehaviour
         ClearSeletecItemWindow();
     }
 
-    //public void OnInventoryButton(InputAction.CallbackContext callbackContext)
-    //{
-    //    if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
-    //    {
-    //        Toggle();
-    //    }
-    //}
+    public void OnInventoryButton(InputAction.CallbackContext callbackContext)
+    {
+        if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+        {
+            Toggle();
+        }
+    }
 
     public void OnInventoryButton(InputAction value)
     {

@@ -5061,6 +5061,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8f03dd2f78a174e8bf54b9bbf8ed81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  jumpForce: 0
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  cameraContainer: {fileID: 0}
+  minXLook: 0
+  maxXLook: 0
+  lookSensitivity: 0
+  canLook: 1
 --- !u!114 &2139279846471388152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5073,6 +5083,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c514645bf356b3b4aa2405b1ad07fd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health:
+    curValue: 0
+    maxValue: 0
+    startValue: 0
+    regenRate: 0
+    decayRate: 0
+    uiBar: {fileID: 0}
+  hunger:
+    curValue: 0
+    maxValue: 0
+    startValue: 0
+    regenRate: 0
+    decayRate: 0
+    uiBar: {fileID: 0}
+  stamina:
+    curValue: 0
+    maxValue: 0
+    startValue: 0
+    regenRate: 0
+    decayRate: 0
+    uiBar: {fileID: 0}
+  noHungerHealthDecay: 0
 --- !u!114 &9005417145395784193
 MonoBehaviour:
   m_ObjectHideFlags: 0

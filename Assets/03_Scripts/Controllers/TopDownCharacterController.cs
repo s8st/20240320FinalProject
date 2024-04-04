@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class TopDownCharacterController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class TopDownCharacterController : MonoBehaviour
     public event Action<AttackSO> OnAttackEvent;
 
 
-    public event Action<Vector2> OnPickItemEvent;
+    public event Action<InputValue> OnPickItemEvent;
     public event Action<Vector2> OnInteractEvent;
 
     private float _timeSinceLastAttack = float.MaxValue;
@@ -84,12 +85,13 @@ public class TopDownCharacterController : MonoBehaviour
         OnInteractEvent?.Invoke(direction);
     }
 
-    public void CallPickitemEvent(Vector2 direction)
+    public void CallPickItemEvent(InputValue value)
     {
-        
-          OnPickItemEvent?.Invoke(direction);
+
+        OnPickItemEvent?.Invoke(value);
+        Debug.Log("Pickup");
     }
-    
+
 
 
 
