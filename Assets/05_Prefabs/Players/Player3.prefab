@@ -5347,7 +5347,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: d9a1a3f4bc7604905bffd30a04a1a478, type: 3}
+  m_Sprite: {fileID: -2526832996998184344, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5674,7 +5674,7 @@ MonoBehaviour:
     statsChangeType: 2
     maxHealth: 10
     speed: 5
-    attackSO: {fileID: 11400000, guid: 813dcf91892c18c4fb66d4b88d5f56c4, type: 2}
+    attackSO: {fileID: 11400000, guid: ba6b820b61c83db4188dabef555458ce, type: 2}
   statsModifiers: []
 --- !u!114 &2835540118860977216
 MonoBehaviour:
@@ -5726,31 +5726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c514645bf356b3b4aa2405b1ad07fd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  hunger:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  stamina:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  noHungerHealthDecay: 0
-  onTakeDamage:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &7200619492438712212
 MonoBehaviour:
   m_ObjectHideFlags: 0

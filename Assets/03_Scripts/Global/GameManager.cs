@@ -5,6 +5,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEditor.U2D.Aseprite;
+//using System;
 
 
 public enum CharacterType
@@ -22,7 +24,7 @@ public enum PlayerType
 public class Character
 {
     public CharacterType characterType;
-   // public PlayerType playerType;
+    public PlayerType playerType;
     public Sprite CharacterSprite;
     public RuntimeAnimatorController AnimatorController;
 
@@ -36,6 +38,8 @@ public class GameManager : MonoBehaviour
 
     public Animator playerAnimator;
     public  Text playerName;
+
+    public List<GameObject> playerPrefabs = new List<GameObject>();
 
 
     [Header("GManager=======================")]
@@ -69,13 +73,29 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CharacterStats rangedStats;
 
 
+    
+
+
 
     public void SetCharacter(CharacterType characterType, string name)
     {
         var character = GameManager.instance.CharacterList.Find(item => item.characterType == characterType);
 
+        
+
         playerAnimator.runtimeAnimatorController = character.AnimatorController;
         playerName.text = name;
+
+        GameObject playerChoice = Instantiate(playerPrefabs[(int)characterType], transform.position, Quaternion.identity);
+        playerChoice.SetActive(true);
+
+        if(playerChoice == null)
+        {
+            Time.timeScale = 0f;
+        }
+
+
+
 
 
     }
@@ -99,9 +119,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        //Time.timeScale = 0f;
+
         instance = this;
+
+        //SetCharacter(CharacterType characterType, string name);
+        // SetCharacter();
+
         // FindGameObjectWithTag : 태그로 검색, 하이어라키에서 모두 검색하기 때문에 느려진다.
         // 매 프레임 실행하는 Update에서는 사용하지 않는다, 한번만 사용할때
+
         Player = GameObject.FindGameObjectWithTag(playerTag).transform;
 
         playerHealthSystem = Player.GetComponent<HealthSystem>();
@@ -125,6 +152,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+       
         UpgradeStatInit();
         StartCoroutine("StartNextWave"); //지금 동작하고 gameOver()에서 StopAllCoroutines 멈추게
         //1. 루틴을 제공해서 코루틴을 반환 : 스트링값으로는 잘 안멈춘다??
@@ -228,9 +256,11 @@ public class GameManager : MonoBehaviour
                 for (int i = 0; i < waveSpawnPosCount; i++)
                 {
                     int posIdx = Random.Range(0, spawnPostions.Count);
-                  
+
                     //int prefabIdx = Random.Range(0, enemyPrefebs.Count);
                     //GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
+
+                 //   Instantiate(enemyPrefebs[6], spawnPostions[posIdx].position, Quaternion.identity);
 
                     for (int j = 0; j < waveSpawnCount; j++)
                     {

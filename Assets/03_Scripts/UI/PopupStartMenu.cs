@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -15,10 +16,13 @@ public class PopupStartMenu : MonoBehaviour
     [SerializeField] private GameObject information;
     [SerializeField] private GameObject selectCharacter;
 
-    [SerializeField] private GameObject player0;
-    [SerializeField] private GameObject player1;
-    [SerializeField] private GameObject player2;
-    [SerializeField] private GameObject player3;
+    //[SerializeField] private GameObject player0;
+    //[SerializeField] private GameObject player1;
+    //[SerializeField] private GameObject player2;
+    //[SerializeField] private GameObject player3;
+
+    //public  List<GameObject> playerPrefabs = new List<GameObject>();
+
 
     private CharacterType characterType;
     //private PlayerType playerType;
@@ -40,6 +44,9 @@ public class PopupStartMenu : MonoBehaviour
 
         selectCharacter.SetActive(false);
         information.SetActive(true);
+
+        //GameObject player = Instantiate(playerPrefabs[index], transform.position, Quaternion.identity);
+        //player.SetActive(true);
 
 
         //if (index == 0)
@@ -100,9 +107,10 @@ public class PopupStartMenu : MonoBehaviour
         GameManager.instance.SetCharacter(characterType, inputField.text);
         //GameManager.instance.SetCharacter(playerType, inputField.text);
 
-        
 
-       
+        //GameObject player = Instantiate(playerPrefabs[index], transform.position, Quaternion.identity);
+        //player.SetActive(true);
+
 
         Destroy(gameObject);
 

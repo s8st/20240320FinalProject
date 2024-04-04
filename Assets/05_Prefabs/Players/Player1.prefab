@@ -493,31 +493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c514645bf356b3b4aa2405b1ad07fd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  hunger:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  stamina:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  noHungerHealthDecay: 0
-  onTakeDamage:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &8468925521656697670
 MonoBehaviour:
   m_ObjectHideFlags: 0

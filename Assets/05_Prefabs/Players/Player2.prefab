@@ -5386,7 +5386,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: d9a1a3f4bc7604905bffd30a04a1a478, type: 3}
+  m_Sprite: {fileID: 4392827059107796345, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5407,7 +5407,7 @@ Animator:
   m_GameObject: {fileID: 5978583292792117581}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 78142cd56eed1384ca5b0199e152b63d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 37998ffa0b913c64fae40fce1ee8d928, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5789,7 +5789,7 @@ MonoBehaviour:
     statsChangeType: 2
     maxHealth: 10
     speed: 5
-    attackSO: {fileID: 11400000, guid: 813dcf91892c18c4fb66d4b88d5f56c4, type: 2}
+    attackSO: {fileID: 11400000, guid: 39dcbd0e87907e04b8f0c92683732852, type: 2}
   statsModifiers: []
 --- !u!114 &8346681158360979999
 MonoBehaviour:
@@ -5841,31 +5841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c514645bf356b3b4aa2405b1ad07fd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  hunger:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  stamina:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  noHungerHealthDecay: 0
-  onTakeDamage:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &2484654335609814899
 MonoBehaviour:
   m_ObjectHideFlags: 0

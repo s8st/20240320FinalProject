@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22332457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -695,7 +695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &117394355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8690,7 +8690,7 @@ GameObject:
   - component: {fileID: 271768210}
   - component: {fileID: 271768209}
   m_Layer: 5
-  m_Name: PrompText
+  m_Name: PromptText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9132,11 +9132,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8775714400329921525, guid: 3d4c290b3f48ecc4198d8a35a4afbd31, type: 3}
   m_PrefabInstance: {fileID: 354094459}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &382662023 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1911952947192058447, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
-  m_PrefabInstance: {fileID: 6015508380560747858}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &382662024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3278900407933056738, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
@@ -9513,10 +9508,6 @@ MonoBehaviour:
   inputField: {fileID: 817559325}
   information: {fileID: 2094979415}
   selectCharacter: {fileID: 1015753971}
-  player0: {fileID: 382662023}
-  player1: {fileID: 561816869}
-  player2: {fileID: 591709659}
-  player3: {fileID: 1451984018}
 --- !u!1001 &418455008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10654,11 +10645,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8775714400329921525, guid: 3d4c290b3f48ecc4198d8a35a4afbd31, type: 3}
   m_PrefabInstance: {fileID: 553796537}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &561816869 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1611861233018653697, guid: 0dcca003f3ab961419241df44cdc0af8, type: 3}
-  m_PrefabInstance: {fileID: 6847218206952199448}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &561816883 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1274785440688137912, guid: 0dcca003f3ab961419241df44cdc0af8, type: 3}
@@ -10874,11 +10860,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6486038067282175362, guid: 041b9551731e08743a597d08fd5833c0, type: 3}
   m_PrefabInstance: {fileID: 591335701}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &591709659 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9153882395638843145, guid: 9bfc06e58384cb54ebd2f1860ecb987b, type: 3}
-  m_PrefabInstance: {fileID: 9053588483236689547}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &591709673 stripped
 Transform:
@@ -33357,19 +33338,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CharacterList:
   - characterType: 0
+    playerType: 0
     CharacterSprite: {fileID: 21300000, guid: d9a1a3f4bc7604905bffd30a04a1a478, type: 3}
     AnimatorController: {fileID: 9100000, guid: 608d7ebc2edd16a43a3be6adfd7bc9f5, type: 2}
   - characterType: 1
+    playerType: 0
     CharacterSprite: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
     AnimatorController: {fileID: 9100000, guid: 78142cd56eed1384ca5b0199e152b63d, type: 2}
   - characterType: 2
+    playerType: 0
     CharacterSprite: {fileID: -6367560908665664636, guid: cd947491a13509945aa1b644f9db3ef2, type: 3}
     AnimatorController: {fileID: 0}
   - characterType: 3
+    playerType: 0
     CharacterSprite: {fileID: -3450976776972242761, guid: b234dd527243d1042a19b2cf7ef17cd7, type: 3}
     AnimatorController: {fileID: 0}
   playerAnimator: {fileID: 1771661640}
   playerName: {fileID: 1922258968}
+  playerPrefabs:
+  - {fileID: 1911952947192058447, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
+  - {fileID: 1611861233018653697, guid: 0dcca003f3ab961419241df44cdc0af8, type: 3}
+  - {fileID: 9153882395638843145, guid: 9bfc06e58384cb54ebd2f1860ecb987b, type: 3}
+  - {fileID: 7385114516017399490, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
   playerTag: Player
   waveText: {fileID: 1206642581}
   hpGaugeSlider: {fileID: 137106210}
@@ -63006,11 +62996,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436862711}
   m_CullTransparentMesh: 1
---- !u!1 &1451984018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7385114516017399490, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
-  m_PrefabInstance: {fileID: 6043928766805875614}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1451984032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6414851288081394242, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
@@ -65147,7 +65132,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.333334
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -65171,7 +65156,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932014604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -11}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85477,6 +85462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player0
       objectReference: {fileID: 0}
+    - target: {fileID: 1911952947192058447, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3278900407933056738, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -85525,10 +85514,6 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 271768209}
-    - target: {fileID: 9005417145395784193, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

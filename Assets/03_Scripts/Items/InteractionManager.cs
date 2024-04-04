@@ -75,7 +75,7 @@ public class InteractionManager : MonoBehaviour
                 //충돌한 객체가 없다면 null로 초기화
                 curInteractGameobject = null;
                 curInteractable = null;
-                promptText.gameObject.SetActive(false);
+         //      promptText.gameObject.SetActive(false);
             }
         }
     }
