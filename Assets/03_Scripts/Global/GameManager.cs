@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
-    private int waveSpawnCount = 6;
+    private int waveSpawnCount = 10;
     private int waveSpawnPosCount = 6;
 
     public float spawnInterval = .5f;
@@ -209,19 +209,49 @@ public class GameManager : MonoBehaviour
                 //int prefabIdx = Random.Range(0, enemyPrefebs.Count);
                 //  int prefabIdx = enemyPrefebs.Count;
                 //GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
-                GameObject enemy = Instantiate(enemyPrefebs[6], spawnPositionsRoot.position, Quaternion.identity);
-                enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
-                enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
-                //몬스터를 생성할 때 지워줘야
-                enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
-                enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
+                
+                
+                //GameObject enemy = Instantiate(enemyPrefebs[6], spawnPositionsRoot.position, Quaternion.identity);
+                //enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+                //enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
+                ////몬스터를 생성할 때 지워줘야
+                //enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
+                //enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
 
-                currentSpawnCount++;
-                yield return new WaitForSeconds(spawnInterval);
-                //    }
-                //}
+                //currentSpawnCount++;
+                //yield return new WaitForSeconds(spawnInterval);
+                ////    }
+                ////}
 
-                //  currentWaveIndex++;
+                ////  currentWaveIndex++;
+
+                for (int i = 0; i < waveSpawnPosCount; i++)
+                {
+                    int posIdx = Random.Range(0, spawnPostions.Count);
+                  
+                    //int prefabIdx = Random.Range(0, enemyPrefebs.Count);
+                    //GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
+
+                    for (int j = 0; j < waveSpawnCount; j++)
+                    {
+                        int prefabIdx = Random.Range(0, enemyPrefebs.Count);
+                        GameObject enemy = Instantiate(enemyPrefebs[prefabIdx], spawnPostions[posIdx].position, Quaternion.identity);
+                        enemy.GetComponent<HealthSystem>().OnDeath += OnEnemyDeath;
+                        //enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
+
+                        //몬스터를 생성할 때 지워줘야
+                        enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(defaultStats);
+                        enemy.GetComponent<CharacterStatsHandler>().AddStatModifier(rangedStats);
+
+                        currentSpawnCount++;
+                        yield return new WaitForSeconds(spawnInterval);
+                    }
+                    RandomUpgrade();
+                    CreateReward();
+                    //enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
+                }
+
+
             }
 
             yield return null;
@@ -345,6 +375,11 @@ public class GameManager : MonoBehaviour
 
         GameObject obj = rewards[idx];
         Instantiate(obj, spawnPostions[posIdx].position, Quaternion.identity);
+
+        //if (currentSpawnCount % 5 == 0)
+        //{
+        //    Instantiate(obj, spawnPostions[posIdx].position, Quaternion.identity);
+        //}
     }
 
 
