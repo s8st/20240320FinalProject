@@ -152,7 +152,7 @@ gantt
 |[0402: 케릭터 선택창](storageFiles/schedule/0402.md)|[0402:시네머신confiner](storageFiles/trouble/0402T.md)|
 |[0403: InputSystem](storageFiles/schedule/0403.md)|[0403:스크립트-프리팹오류](storageFiles/trouble/0403T.md)|
 |[0404: 몬스터 발생구역 수정하기](storageFiles/schedule/0404.md)|[0404:while문 오류](storageFiles/trouble/0404T.md)|
-|[0405:  ](storageFiles/schedule/0405.md)|[0405: 인벤토리,아이템,상호작용](storageFiles/trouble/0405T.md)|
+|[0405:케릭터 선택  ](storageFiles/schedule/0405.md)|[0405: 케릭터선택,인벤토리,아이템,상호작용](storageFiles/trouble/0405T.md)|
 
 
 
