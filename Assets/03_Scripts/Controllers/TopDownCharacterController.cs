@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 
 public class TopDownCharacterController : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class TopDownCharacterController : MonoBehaviour
     public event Action<Vector2> OnLookEvent;
     public event Action<AttackSO> OnAttackEvent;
 
-    public event Action<InputValue> OnInventoryButtonEvent;
+    public event Action<InputAction.CallbackContext> OnInventoryButtonEvent;
     public event Action<InputValue> OnPickItemEvent;
     public event Action<Vector2> OnInteractEvent;
 
@@ -92,9 +93,9 @@ public class TopDownCharacterController : MonoBehaviour
         Debug.Log("Pickup");
     }
 
-    public void CallOnInventoryButtonEvent(InputValue value)
+    public void CallOnInventoryButtonEvent(InputAction.CallbackContext callbackContext)
     {
-        OnInventoryButtonEvent?.Invoke(value);
+        OnInventoryButtonEvent?.Invoke(callbackContext);
         Debug.Log("OnInventoryButton");
     }
 
