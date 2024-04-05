@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using static UnityEditor.Progress;
+using static UnityEngine.InputSystem.InputAction;
 
 public class ItemSlot
 {
@@ -69,26 +70,27 @@ public class Inventory : MonoBehaviour
         ClearSeletecItemWindow();
     }
 
-    public void OnInventoryButton(InputAction.CallbackContext callbackContext)
-    {
-        if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
-        {
-            Debug.Log("toggle");
-            _controllerTopDown.CallOnInventoryButtonEvent(callbackContext);
-            Toggle();
+    //public void OnInventory(InputAction.CallbackContext callbackContext)
+    //{
+    //    if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+    //    {
+    //        Debug.Log("toggle");
+    //        _controllerTopDown.CallOnInventoryEvent(callbackContext);
+    //        Toggle();
 
             
-        }
-    }
-
-    //public void OnInventoryButton(InputAction value)
-    //{
-    //    if (value.phase == InputActionPhase.Started)/*막 눌려졌다면*/
-    //    {
-    //      //  Debug.Log("toggle");
-    //        Toggle();
     //    }
     //}
+
+    public void OnInventory(InputAction value)
+    {
+        if (value.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+        {
+             Debug.Log("toggle");
+            //_controllerTopDown.CallOnInventoryEvent(callbackContext);
+            Toggle();
+        }
+    }
 
 
 

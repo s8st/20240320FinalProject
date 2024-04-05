@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
 
 
 
-    public void SetCharacter(CharacterType characterType, string name) //2
+    public void SetCharacter(CharacterType characterType, string name) // 2. PopupStartMenu에서 인자를 넘겨 받음
     {
         var character = GameManager.instance.CharacterList.Find(item => item.characterType == characterType);
 
@@ -94,13 +94,13 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
         }
 
-        Init(name); //3
+        Init(name); // 3. 넘겨받은 name 인자를 Init에서 다시 넘겨 받음 
 
 
 
     }
 
-    void Init(string name) //4
+    void Init(string name) //4. 넘겨 받은 name을  playerName.text에 대입해서 선택된 케릭터의 이름이 게임화면에 반영
     {
 
         Player = GameObject.FindGameObjectWithTag(playerTag).transform;

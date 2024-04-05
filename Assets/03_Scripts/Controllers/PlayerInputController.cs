@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 
 public class PlayerInputController : TopDownCharacterController
 {
@@ -71,7 +72,10 @@ public class PlayerInputController : TopDownCharacterController
         CallPickItemEvent(value);
     }
 
-
+     public void  OnInventory(InputValue value)
+    {
+    //    CallOnInventoryEvent(value);
+    }
 
 }
 

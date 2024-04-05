@@ -13,7 +13,7 @@ public class TopDownCharacterController : MonoBehaviour
     public event Action<Vector2> OnLookEvent;
     public event Action<AttackSO> OnAttackEvent;
 
-    public event Action<InputAction.CallbackContext> OnInventoryButtonEvent;
+    public event Action<InputValue> OnInventoryEvent;
     public event Action<InputValue> OnPickItemEvent;
     public event Action<Vector2> OnInteractEvent;
 
@@ -93,10 +93,10 @@ public class TopDownCharacterController : MonoBehaviour
         Debug.Log("Pickup");
     }
 
-    public void CallOnInventoryButtonEvent(InputAction.CallbackContext callbackContext)
+    public void CallOnInventoryEvent(InputAction.CallbackContext callbackContext)
     {
-        OnInventoryButtonEvent?.Invoke(callbackContext);
-        Debug.Log("OnInventoryButton");
+    //    OnInventoryEvent?.Invoke(callbackContext);
+        Debug.Log("OnInventory");
     }
 
 
