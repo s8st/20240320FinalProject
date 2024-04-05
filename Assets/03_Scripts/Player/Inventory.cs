@@ -35,19 +35,23 @@ public class Inventory : MonoBehaviour
 
     private int curEquipIndex;
 
-   // private PlayerController controller;
-  //  private PlayerConditions condition;
+    private PlayerController controller;
+    private PlayerConditions condition;
 
     [Header("Events")]
     public UnityEvent onOpenInventory;
     public UnityEvent onCloseInventory;
 
+
+    private TopDownCharacterController _controllerTopDown;
+
     public static Inventory instance;
     void Awake()
     {
         instance = this;
-  //      controller = GetComponent<PlayerController>();
- //       condition = GetComponent<PlayerConditions>();
+        controller = GetComponent<PlayerController>();
+        condition = GetComponent<PlayerConditions>();
+        _controllerTopDown = GetComponent <TopDownCharacterController>();
     }
     private void Start()
     {
@@ -69,17 +73,22 @@ public class Inventory : MonoBehaviour
     {
         if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
         {
+            Debug.Log("toggle");
+        //    _controllerTopDown.CallOnInventoryButtonEvent(callbackContext);
             Toggle();
+
+            
         }
     }
 
-    public void OnInventoryButton(InputAction value)
-    {
-        if (value.phase == InputActionPhase.Started)/*막 눌려졌다면*/
-        {
-            Toggle();
-        }
-    }
+    //public void OnInventoryButton(InputAction value)
+    //{
+    //    if (value.phase == InputActionPhase.Started)/*막 눌려졌다면*/
+    //    {
+    //      //  Debug.Log("toggle");
+    //        Toggle();
+    //    }
+    //}
 
 
 
@@ -89,13 +98,13 @@ public class Inventory : MonoBehaviour
         {
             inventoryWindow.SetActive(false);
             onCloseInventory?.Invoke();
-    //        controller.ToggleCursor(false); //커서 없애기, 인벤토리 꺼지면 커서도 꺼지게
+            controller.ToggleCursor(false); //커서 없애기, 인벤토리 꺼지면 커서도 꺼지게
         }
         else
         {
             inventoryWindow.SetActive(true);
             onOpenInventory?.Invoke();
-   //         controller.ToggleCursor(true); // 인벤토리를 켰을때만 커서 사용
+            controller.ToggleCursor(true); // 인벤토리를 켰을때만 커서 사용
         }
     }
 
@@ -242,7 +251,7 @@ public class Inventory : MonoBehaviour
 
         uiSlots[selectedItemIndex].equipped = true; // 새로 장착할 아이템을 true
         curEquipIndex = selectedItemIndex; //선택한 아이템으로 만들어주기
-    //    EquipManager.instance.EquipNew(selectedItem.item); // EquipManager의 EquipNew
+        EquipManager.instance.EquipNew(selectedItem.item); // EquipManager의 EquipNew
         UpdateUI();
 
         SelectItem(selectedItemIndex);

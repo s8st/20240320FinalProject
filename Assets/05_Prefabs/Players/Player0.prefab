@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &552630761921491055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3027644714945830656}
+  m_Layer: 8
+  m_Name: ItemDropPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3027644714945830656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552630761921491055}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3278900407933056738}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &628942391665168442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5010,6 +5041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3278900407933056738}
+  - component: {fileID: 3823436114156314763}
   - component: {fileID: 1601736715683320557}
   - component: {fileID: 2139279846471388152}
   - component: {fileID: 9005417145395784193}
@@ -5029,7 +5061,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3278900407933056738
 Transform:
   m_ObjectHideFlags: 0
@@ -5046,9 +5078,53 @@ Transform:
   - {fileID: 7941789186330045058}
   - {fileID: 5952507959288097791}
   - {fileID: 4637754303865385620}
+  - {fileID: 3027644714945830656}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3823436114156314763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911952947192058447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4f4111a25c0ba4384636323dd89b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  inventoryWindow: {fileID: 0}
+  dropPosition: {fileID: 3027644714945830656}
+  selectedItemName: {fileID: 0}
+  selectedItemDescription: {fileID: 0}
+  selectedItemStatNames: {fileID: 0}
+  selectedItemStatValues: {fileID: 0}
+  useButton: {fileID: 0}
+  equipButton: {fileID: 0}
+  unEquipButton: {fileID: 0}
+  dropButton: {fileID: 0}
+  onOpenInventory:
+    m_PersistentCalls:
+      m_Calls: []
+  onCloseInventory:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1601736715683320557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5061,16 +5137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc8f03dd2f78a174e8bf54b9bbf8ed81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  jumpForce: 0
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  cameraContainer: {fileID: 0}
-  minXLook: 0
-  maxXLook: 0
-  lookSensitivity: 0
-  canLook: 1
 --- !u!114 &2139279846471388152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5083,28 +5149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c514645bf356b3b4aa2405b1ad07fd57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  hunger:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  stamina:
-    curValue: 0
-    maxValue: 0
-    startValue: 0
-    regenRate: 0
-    decayRate: 0
-    uiBar: {fileID: 0}
-  noHungerHealthDecay: 0
 --- !u!114 &9005417145395784193
 MonoBehaviour:
   m_ObjectHideFlags: 0
