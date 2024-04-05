@@ -74,7 +74,7 @@ public class Inventory : MonoBehaviour
         if (callbackContext.phase == InputActionPhase.Started)/*막 눌려졌다면*/
         {
             Debug.Log("toggle");
-        //    _controllerTopDown.CallOnInventoryButtonEvent(callbackContext);
+            _controllerTopDown.CallOnInventoryButtonEvent(callbackContext);
             Toggle();
 
             
