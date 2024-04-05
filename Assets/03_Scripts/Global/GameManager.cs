@@ -77,14 +77,14 @@ public class GameManager : MonoBehaviour
 
 
 
-    public void SetCharacter(CharacterType characterType, string name)
+    public void SetCharacter(CharacterType characterType, string name) //2
     {
         var character = GameManager.instance.CharacterList.Find(item => item.characterType == characterType);
 
         
 
         playerAnimator.runtimeAnimatorController = character.AnimatorController;
-        playerName.text = name;
+        //playerName.text = name;
 
         GameObject playerChoice = Instantiate(playerPrefabs[(int)characterType], transform.position, Quaternion.identity);
         playerChoice.SetActive(true);
@@ -94,11 +94,36 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0f;
         }
 
-
+        Init(name); //3
 
 
 
     }
+
+    void Init(string name) //4
+    {
+
+        Player = GameObject.FindGameObjectWithTag(playerTag).transform;
+
+
+
+        playerHealthSystem = Player.GetComponent<HealthSystem>();
+        playerHealthSystem.playerName.text = name;  // 5
+        playerHealthSystem.OnDamage += UpdateHealthUI;
+        playerHealthSystem.OnHeal += UpdateHealthUI;
+        playerHealthSystem.OnDeath += GameOver;
+
+        gameOverUI.SetActive(false);
+
+        for (int i = 0; i < spawnPositionsRoot.childCount; i++)
+        {
+            //spawnPostions을 다 가져와서 저장
+            spawnPostions.Add(spawnPositionsRoot.GetChild(i)); // GetChild : transform반환
+        }
+        UpgradeStatInit();
+        StartCoroutine("StartNextWave");
+    }
+
 
     //public void SetCharacter(PlayerType playerType, string name)
     //{
@@ -129,32 +154,32 @@ public class GameManager : MonoBehaviour
         // FindGameObjectWithTag : 태그로 검색, 하이어라키에서 모두 검색하기 때문에 느려진다.
         // 매 프레임 실행하는 Update에서는 사용하지 않는다, 한번만 사용할때
 
-        Player = GameObject.FindGameObjectWithTag(playerTag).transform;
+        //Player = GameObject.FindGameObjectWithTag(playerTag).transform;
 
-        playerHealthSystem = Player.GetComponent<HealthSystem>();
-        playerHealthSystem.OnDamage += UpdateHealthUI;
-        playerHealthSystem.OnHeal += UpdateHealthUI;
-        playerHealthSystem.OnDeath += GameOver;
+        //playerHealthSystem = Player.GetComponent<HealthSystem>();
+        //playerHealthSystem.OnDamage += UpdateHealthUI;
+        //playerHealthSystem.OnHeal += UpdateHealthUI;
+        //playerHealthSystem.OnDeath += GameOver;
 
-        gameOverUI.SetActive(false);
+        //gameOverUI.SetActive(false);
 
-        for (int i = 0; i < spawnPositionsRoot.childCount; i++)
-        {
-            //spawnPostions을 다 가져와서 저장
-            spawnPostions.Add(spawnPositionsRoot.GetChild(i)); // GetChild : transform반환
-        }
+        //for (int i = 0; i < spawnPositionsRoot.childCount; i++)
+        //{
+        //    //spawnPostions을 다 가져와서 저장
+        //    spawnPostions.Add(spawnPositionsRoot.GetChild(i)); // GetChild : transform반환
+        //}
 
     }
 
-
+   
 
 
 
     private void Start()
     {
        
-        UpgradeStatInit();
-        StartCoroutine("StartNextWave"); //지금 동작하고 gameOver()에서 StopAllCoroutines 멈추게
+        //UpgradeStatInit();
+        //StartCoroutine("StartNextWave"); //지금 동작하고 gameOver()에서 StopAllCoroutines 멈추게
         //1. 루틴을 제공해서 코루틴을 반환 : 스트링값으로는 잘 안멈춘다??
         //2. 메서드 네임을 제공하고 코루틴 반환 : 메서드네임이나 코루틴으로 정지
        // SpawnMonster();

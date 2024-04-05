@@ -5587,7 +5587,7 @@ Transform:
   - {fileID: 3288973154098304998}
   - {fileID: 3461438919363076287}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4181189626900731127
 MonoBehaviour:
@@ -5891,6 +5891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d3c79f328d7084a91d4245b078ca50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerName: {fileID: 6159047981309244521}
   healthChangeDelay: 0.5
   damageClip: {fileID: 8300000, guid: 8b23b175a78d6b5458322e3a6c9905d0, type: 3}
 --- !u!114 &1958879624986063856

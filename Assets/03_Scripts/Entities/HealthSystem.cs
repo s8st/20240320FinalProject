@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour
 {
+    public Text playerName;
     [SerializeField] private float healthChangeDelay = .5f;
 
     private CharacterStatsHandler _statsHandler;

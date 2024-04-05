@@ -104,7 +104,9 @@ public class PopupStartMenu : MonoBehaviour
 
         //GameManager.instance.playerName.text = inputField.text;
         
-        GameManager.instance.SetCharacter(characterType, inputField.text);
+        GameManager.instance.SetCharacter(characterType, inputField.text); // 1 ---> gamemanager
+
+
         //GameManager.instance.SetCharacter(playerType, inputField.text);
 
 
