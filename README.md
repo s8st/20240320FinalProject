@@ -329,6 +329,10 @@ Remove 삭제
 
 
 
+||링크|QR|
+|--|:--:|:--:|
+|0329 입문 강의 완료 <br> - 인벤토리 제작 전<br> - 장착형 아이템 만드는 중 |[0329 : 1차 빌드 - 개발입문강의](https://s8st.github.io/20240320FinalProject/1/index.html)  |![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)  |
+|0406 : 케릭터 선택 구현|[0406 : 2차 빌드 -케릭터 선택까지구현](https://s8st.github.io/20240320FinalProject/2/index.html)||
 
 
 
