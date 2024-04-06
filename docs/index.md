@@ -1,4 +1,4 @@
-[되돌아가기](https://github.com/s8st/20240320FinalProject)
+[↩ 되돌아가기](https://github.com/s8st/20240320FinalProject)
 
 ### webGL 링크
 
