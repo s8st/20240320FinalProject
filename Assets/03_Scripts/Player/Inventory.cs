@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
-using static UnityEditor.Progress;
+//using static UnityEditor.Progress;
 using static UnityEngine.InputSystem.InputAction;
 
 public class ItemSlot

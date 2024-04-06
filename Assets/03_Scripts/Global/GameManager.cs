@@ -5,7 +5,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEditor.U2D.Aseprite;
+//using UnityEditor.U2D.Aseprite;
 //using System;
 
 
