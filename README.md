@@ -8,7 +8,11 @@
 
 
 # 20240320FinalProject
+
+<!-- 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fs8st%2Fhit-counter&count_bg=%2300f&title_bg=%23000000&icon=unity.svg&icon_color=%23ff0000&title=이것은왔다갔다_저장만해도숫자가계속올라가는구만_띄어쓰기는_안되는가???&edge_flat=false)](https://hits.seeyoufarm.com)
+-->
+
 > 기간 : 2024.03.20 ~ 05.02
 - 프로젝트 명 : **Retro RPG**
 - 장르 :  **MMORPG**(대규모 다중 사용자 온라인 롤플레잉 게임)
@@ -327,7 +331,7 @@ Remove 삭제
 ---  
 > ❓ 확인하기 --> 브랜치의 docs의 webgl도 버전 관리 가능 여부
 
-
+<!--
 [🎉(클릭) webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
 
 ||링크|QR|
@@ -336,7 +340,7 @@ Remove 삭제
 |0406 : 케릭터 선택 구현|[0406 : 2차 빌드 -케릭터 선택까지구현](https://s8st.github.io/20240320FinalProject/2/index.html)||
 
 
-
+-->
 
 
 
