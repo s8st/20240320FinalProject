@@ -8,7 +8,18 @@ public class PlayerInputController : TopDownCharacterController
 {
     private Camera _camera;
 
+    public Inventory2 Inventory2;
 
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if(item != null )
+        {
+            Inventory2.AddItem(item);
+        }
+
+    }
 
     //private void Awake()
     protected override void Awake()

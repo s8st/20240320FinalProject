@@ -102,6 +102,8 @@ public class TopDownCharacterController : MonoBehaviour
 
 
 
+
+
     //[SerializeField] 유니티와 동기화??
     //    [SerializeField] public float speed = 5;
 
