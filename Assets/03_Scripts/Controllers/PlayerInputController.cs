@@ -11,15 +11,29 @@ public class PlayerInputController : TopDownCharacterController
     public Inventory2 Inventory2;
 
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
-        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
-        if(item != null )
-        {
-            Inventory2.AddItem(item);
-        }
+    //private void OnControllerColliderHit(ControllerColliderHit hit)
+    //{
+    //    IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+    //    if (item != null)
+    //    {
+    //        Inventory2.AddItem(item);
+    //    }
 
+    //}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+            IInventoryItem item = collision.GetComponent<IInventoryItem>();
+            if (item != null)
+            {
+                Inventory2.AddItem(item);
+            }
+
+        
     }
+
+
 
     //private void Awake()
     protected override void Awake()

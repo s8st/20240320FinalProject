@@ -9,7 +9,7 @@ public class Axe : MonoBehaviour,IInventoryItem
     {
         get
         {
-            return "Axe";
+            return "Item_Axe";
         }
 
     }

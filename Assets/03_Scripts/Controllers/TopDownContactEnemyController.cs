@@ -15,6 +15,10 @@ public class TopDownContactEnemyController : TopDownEnemyController
     private HealthSystem _collidingTargetHealthSystem;
     private TopDownMovement _collidingMovement;
 
+    public Inventory2 Inventory2;
+
+
+
     protected override void Start()
     {
         base.Start();// 부모의 함수부터 실행
@@ -55,6 +59,25 @@ public class TopDownContactEnemyController : TopDownEnemyController
         characterRenderer.flipX = Mathf.Abs(rotZ) > 90f;
     }
 
+
+
+
+   
+
+
+    //private void OnControllerColliderHit(ControllerColliderHit hit)
+    //{
+    //    IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+    //    if (item != null)
+    //    {
+    //        Inventory2.AddItem(item);
+    //    }
+
+    //}
+
+
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject receiver = collision.gameObject;
@@ -74,6 +97,8 @@ public class TopDownContactEnemyController : TopDownEnemyController
         }
 
         _collidingMovement = receiver.GetComponent<TopDownMovement>();
+
+       
     }
 
     // 충돌 여부 체크

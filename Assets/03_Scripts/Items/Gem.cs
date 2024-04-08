@@ -8,7 +8,7 @@ public class Gem : MonoBehaviour, IInventoryItem
     {
         get
         {
-            return "Gem";
+            return "Coin";
         }
     }
 
