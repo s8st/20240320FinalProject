@@ -18,44 +18,68 @@ public class InvenItemSlot : MonoBehaviour
         EquipObject.SetActive(item.IsEquipped);
     }
 
-    public void OnClickItem()
+    //public void OnClickItem()
+    //{
+    //    GameObject obj = InvenUIManager.Instance.Show("InvenPopupAlert");
+    //    InvenPopupAlert popupAlert = obj.GetComponent<InvenPopupAlert>();
+
+    //    popupAlert.Setting(item.IsEquipped ? "장착 해제 하시겠습니까??" : "장착 하시겠습니까??",
+    //        () =>
+    //        {
+    //            item.IsEquipped = !item.IsEquipped;
+    //            EquipObject.SetActive(item.IsEquipped);
+
+    //            InvenManager.Instance.SaveUserData();
+
+    //            InvenUIManager.Instance.Hide("InvenPopupAlert");
+    //        },
+    //        () =>
+    //        {
+    //            InvenUIManager.Instance.Hide("InvenPopupAlert");
+    //        });
+
+
+    //}
+
+
+
+
+
+   public void OnClickConfirm()
     {
-        GameObject obj = InvenUIManager.Instance.Show("InvenPopupAlert");
-        InvenPopupAlert popupAlert = obj.GetComponent<InvenPopupAlert>();
+        item.IsEquipped = !item.IsEquipped;
+        EquipObject.SetActive(item.IsEquipped);
 
-        popupAlert.Setting(item.IsEquipped ? "장착 해제 하시겠습니까??" : "장착 하시겠습니까??",
-            () =>
-            {
-                item.IsEquipped = !item.IsEquipped;
-                EquipObject.SetActive(item.IsEquipped);
+        InvenManager.Instance.SaveUserData();
 
-                InvenManager.Instance.SaveUserData();
-
-                InvenUIManager.Instance.Hide("InvenPopupAlert");
-            },
-            () =>
-            {
-                InvenUIManager.Instance.Hide("InvenPopupAlert");
-            });
-
-
-
-
-
-        //void OnClickConfirm()
-        //{
-        //    item.IsEquipped = !item.IsEquipped;
-        //    EquipObject.SetActive(item.IsEquipped);
-
-        //    GameManager.Instance.SaveUserData();
-
-        //    UIManager.Instance.Hide("PopupAlert");
-        //}
-
-        //void OnClickCancel()
-        //{
-        //    UIManager.Instance.Hide("PopupAlert");
-        //}
-        //}
+        InvenUIManager.Instance.Hide("PopupAlert");
     }
+
+   public  void OnClickCancel()
+    {
+        InvenUIManager.Instance.Hide("PopupAlert");
+    }
+
+
+
+
+
+
+
+    //void OnClickConfirm()
+    //{
+    //    item.IsEquipped = !item.IsEquipped;
+    //    EquipObject.SetActive(item.IsEquipped);
+
+    //    GameManager.Instance.SaveUserData();
+
+    //    UIManager.Instance.Hide("PopupAlert");
+    //}
+
+    //void OnClickCancel()
+    //{
+    //    UIManager.Instance.Hide("PopupAlert");
+    //}
+    //}
+
 }

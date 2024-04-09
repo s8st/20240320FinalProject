@@ -74,7 +74,7 @@ public class InvenManager : MonoBehaviour
 
     private void Start()
     {
-        InvenUIManager.Instance.Show("PopupMain");
+      //  InvenUIManager.Instance.Show("PopupMain");
     }
 
     public void SaveUserData()
@@ -87,6 +87,8 @@ public class InvenManager : MonoBehaviour
 
         Debug.Log("저장 완료 : " + path);
     }
+
+    // 저장 데이터 불러오기
 
     //public void LoadUserData(string userName)
     //{

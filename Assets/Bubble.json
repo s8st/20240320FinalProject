@@ -9,24 +9,5 @@
         "str": 30,
         "crt": 40
     },
-    "Inventory": [
-        {
-            "IsEquipped": true,
-            "Data": {
-                "instanceID": 27540
-            }
-        },
-        {
-            "IsEquipped": false,
-            "Data": {
-                "instanceID": 27364
-            }
-        },
-        {
-            "IsEquipped": true,
-            "Data": {
-                "instanceID": 27500
-            }
-        }
-    ]
+    "Inventory": []
 }
