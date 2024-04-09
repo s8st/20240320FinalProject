@@ -1,0 +1,32 @@
+{
+    "Name": "Bubble",
+    "Level": 15,
+    "NowExp": 7,
+    "FullExp": 21,
+    "Stat": {
+        "atk": 10,
+        "def": 20,
+        "str": 30,
+        "crt": 40
+    },
+    "Inventory": [
+        {
+            "IsEquipped": true,
+            "Data": {
+                "instanceID": 27540
+            }
+        },
+        {
+            "IsEquipped": true,
+            "Data": {
+                "instanceID": 27364
+            }
+        },
+        {
+            "IsEquipped": true,
+            "Data": {
+                "instanceID": 27500
+            }
+        }
+    ]
+}

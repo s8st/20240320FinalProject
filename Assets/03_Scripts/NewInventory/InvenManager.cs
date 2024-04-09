@@ -69,7 +69,7 @@ public class InvenManager : MonoBehaviour
         else
             Destroy(gameObject);
 
-        LoadUserData("Bubble");
+     //   LoadUserData("Bubble");
     }
 
     private void Start()
@@ -88,14 +88,14 @@ public class InvenManager : MonoBehaviour
         Debug.Log("저장 완료 : " + path);
     }
 
-    public void LoadUserData(string userName)
-    {
-        string path = Path.Combine(Application.dataPath, userName + ".json");
+    //public void LoadUserData(string userName)
+    //{
+    //    string path = Path.Combine(Application.dataPath, userName + ".json");
 
-        string data = File.ReadAllText(path);
+    //    string data = File.ReadAllText(path);
 
-        User = JsonUtility.FromJson<UserData>(data);
+    //    User = JsonUtility.FromJson<UserData>(data);
 
-        Debug.Log("로드 완료 : " + path);
-    }
+    //    Debug.Log("로드 완료 : " + path);
+    //}
 }
