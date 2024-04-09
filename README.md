@@ -331,16 +331,19 @@ Remove 삭제
 ---  
 > ❓ 확인하기 --> 브랜치의 docs의 webgl도 버전 관리 가능 여부
 
-<!--
+
 [🎉(클릭) webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
 
 ||링크|QR|
 |--|:--:|:--:|
 |0329 입문 강의 완료 <br> - 인벤토리 제작 전<br> - 장착형 아이템 만드는 중 |[0329 : 1차 빌드 - 개발입문강의](https://s8st.github.io/20240320FinalProject/1/index.html)  |  |
 |0406 : 케릭터 선택 구현|[0406 : 2차 빌드 -케릭터 선택까지구현](https://s8st.github.io/20240320FinalProject/2/index.html)||
+|0412 : 가능하다면 인벤토리까지<br> 물방울,회오리 발사체 만들기<br>케릭터  |||
+|0419 : 19일까지 포톤 멀티플레이 안되면 포기하자|||
+|0426 : |||
+|0430 : 최종 webgl 빌드|||
 
 
--->
 
 
 
