@@ -17,7 +17,7 @@
             }
         },
         {
-            "IsEquipped": true,
+            "IsEquipped": false,
             "Data": {
                 "instanceID": 27364
             }
