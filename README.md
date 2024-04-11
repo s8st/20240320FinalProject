@@ -13,10 +13,10 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fs8st%2Fhit-counter&count_bg=%2300f&title_bg=%23000000&icon=unity.svg&icon_color=%23ff0000&title=이것은왔다갔다_저장만해도숫자가계속올라가는구만_띄어쓰기는_안되는가???&edge_flat=false)](https://hits.seeyoufarm.com)
 -->
 
-> 기간 : 2024.03.20 ~ 05.02
-- 프로젝트 명 : **Retro RPG**
-- 장르 :  **MMORPG**(대규모 다중 사용자 온라인 롤플레잉 게임)
-- 2D/3D : **2D**
+> `기간 : 2024.03.20 ~ 05.02`
+>- 프로젝트 명 : **Retro RPG**
+>- 장르 :  **MMORPG**(대규모 다중 사용자 온라인 롤플레잉 게임)
+>- 2D/3D : **2D**
 
 
 <details >
@@ -281,19 +281,19 @@ Remove 삭제
 
 
 <details >
-    <summary > ⚓ 참고 영상  </summary> 
+    <summary > ⚓ 참고 영상  </summary>  
 
  
 
+<br>
 
+|    |     |   |
+|:------------------:|:------------------:|:------------------:|
+|[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)|[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|[게코딩 GeCoding](https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0)|
+|[포톤:고라니tv](https://www.youtube.com/playlist?list=PL3KKSXoBRRW3YE4UMnRH762vOhSHLdnpK)|[포톤:유니티쳐](https://www.youtube.com/playlist?list=PLR7ZBZc9XtFKaHIkPX3p7BETP8XGJLVVs)|[포톤:레트로 retr0](https://www.youtube.com/playlist?list=PLctzObGsrjfwF7kkoraWb235U8Z602gx1)|
+||||
+||||
 
-|    |     |
-|:------------------:|:------------------:|
-|[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)||
-||[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|
-|[게코딩 GeCoding](https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0)||
-|||
-|||
 
 
 
