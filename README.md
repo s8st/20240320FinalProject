@@ -161,7 +161,7 @@ gantt
 |[0409:인벤토리구현](storageFiles/schedule/0409.md)||
 |0410 : 선거 휴일| 선거 휴일|
 |[0411 : 프로젝트 계획 수정](storageFiles/schedule/0411.md)||
-|0412||
+|[0412 : 포톤 공부](storageFiles/schedule/0412.md)||
 
 ---  
 
