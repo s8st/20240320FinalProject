@@ -135,6 +135,7 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
  if(photonView.IsMine) 조건을 걸어서 플레이어가 내것인지 검사해서 내것이라면 이동 등을 할 수 있게
  if(!photonView.AmOwner) 방장만 할 수 있는 행위(예로 핑퐁에서 공 스폰하게)
  
+sever접속 ---> (lobby -->) room 생성  
 
 
 
