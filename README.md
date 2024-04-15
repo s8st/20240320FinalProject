@@ -337,6 +337,7 @@ Remove 삭제
 |[깃허브블로그 1부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr)|[깃허브블로그 2부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY)|[깃허브블로그](https://www.youtube.com/playlist?list=PL7nkwz9MkASx1wxXK51n7KtwQyXgoNL70)|
 ||||
 |[**유니티 맵,fx 등 : 코더캣**](https://www.youtube.com/@seranine/playlists)|[곽영호 : 유니티 스프라이트 이해하기](https://www.youtube.com/watch?v=u_5tUu9f9OQ)||
+|[[엔큐브] 유니티 2D 게임개발 기초 강좌](https://www.youtube.com/playlist?list=PLgX2DtsPa7hPGQznz3M6mIOokXVtrXKkC)|||
 
 
 
