@@ -129,7 +129,7 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 
 ### `프로젝트에 pun2를 적용하기 위해 먼저 필요한 개념들 정리`
 
-- Resources에 동기화 해야하는 개첵들을 프리팹으로 만들기
+- Resources에 동기화 해야하는 객체들을 프리팹으로 만들기
 - 발사체는 rpc로? --> 고라니tv 다시 확인
 
  if(photonView.IsMine) 조건을 걸어서 플레이어가 내것인지 검사해서 내것이라면 이동 등을 할 수 있게
@@ -150,7 +150,7 @@ sever접속 ---> (lobby -->) room 생성
 
 | 0415 ~ 0419   | | 문제점    |
 |:------------------|------------------:|------------------:|
-|[0415 : `포토샵작업` <br>- 게임 참고해서 맵 추가하기<br> - 포톤:6강 따라하기](storageFiles/schedule/0415.md) |`[날짜 : ](storageFiles/schedule/날짜.md)`|
+|[0415 : `포토샵작업` <br>- 게임 참고해서 맵 추가하기<br> - 포톤:6강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)
 |0416 : `포토샵작업`<br>- 물풍선 만들기 <br>- 포톤  |||
 |0417 : `포토샵작업`<br>- 스노우브로스 케릭터 추가<br>- 포톤  |||
 |0418 : |||
