@@ -86901,6 +86901,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4802353439183179785, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
+      propertyPath: sceneViewId
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6414851288081394242, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -87018,6 +87022,10 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 271768209}
+    - target: {fileID: 8832156072345129154, guid: 0dcca003f3ab961419241df44cdc0af8, type: 3}
+      propertyPath: sceneViewId
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -87398,6 +87406,10 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 271768209}
+    - target: {fileID: 7805545447986468163, guid: 9bfc06e58384cb54ebd2f1860ecb987b, type: 3}
+      propertyPath: sceneViewId
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9153882395638843145, guid: 9bfc06e58384cb54ebd2f1860ecb987b, type: 3}
       propertyPath: m_Name
       value: Player2
