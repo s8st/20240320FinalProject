@@ -141,6 +141,23 @@ sever접속 ---> (lobby -->) room 생성
 
 ---  
 
+```
+5강. 코인 먹기 게임 만들기- 승리 판정과 재시작 :
+모바일을 위한 조이스틱 추가방법 + 윈도우에서는 안보이게
+
+함수 내에 이렇게 전처리기를 쓰시면 되요.
+#if UNITY_STANDALONE
+// 조이스틱 숨기기
+fixedJoystick.gameObject.SetActive(false);
+#elif UNITY_ANDROID || UNITY_IOS
+// 조이스틱 표시
+fixedJoystick.gameObject.SetActive(true);
+#endif...
+
+```
+
+
+
 ---  
 
 
