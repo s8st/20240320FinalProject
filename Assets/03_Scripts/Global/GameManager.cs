@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 public enum CharacterType
 {
-    Bubble,Bomber,Snowbros,Tumblepop
+    Bubble,Bomber, TumbleMan,SnowMan
 }
 
 public enum PlayerType
