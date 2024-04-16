@@ -150,8 +150,8 @@ sever접속 ---> (lobby -->) room 생성
 
 | 0415 ~ 0419   | | 문제점    |
 |:------------------|------------------:|------------------:|
-|[0415 : `스프라이트 공부` <br> - 포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)
-|[0416 : `포토샵작업`<br>- 스노우맨 케릭터 추가](storageFiles/schedule/0416.md)  |||
+|[0415 : `스프라이트 공부` <br> - 포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)|
+|[0416 : `포토샵작업`<br>- 스노우맨 케릭터 추가](storageFiles/schedule/0416.md)  ||[0416](storageFiles/trouble/0416T.md)|
 |0417 : `포토샵작업`<br>- 물풍선 만들기 <br>- 맵 추가하기|||
 |**0418 : 케릭터 추가 완료하기** |||
 |0419 : |||
