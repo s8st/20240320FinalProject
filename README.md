@@ -169,10 +169,10 @@ fixedJoystick.gameObject.SetActive(true);
 |:------------------|------------------:|------------------:|
 |[0415 : `스프라이트 공부` <br> - ✅포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)|
 |[0416 : `포토샵작업`<br>- ✅스노우맨 케릭터 추가<br>- ✅ 물풍선 만들기 ](storageFiles/schedule/0416.md)  ||[0416](storageFiles/trouble/0416T.md)|
-|[0417 : `기존 에셋 자료 게임에 반영하기`<br>- 몬스터 추가하기 <br>- 맵 추가하기<br>- 조이스틱 추가<br>- 발사체 애니메이션](storageFiles/schedule/0417.md)||[0417](storageFiles/trouble/0417T.md)|
+|[0417 : `기존 에셋 자료 게임에 반영하기`<br>- 몬스터 추가하기 <br>-✅ 맵 추가하기<br>- 조이스틱 추가<br>- 발사체 애니메이션](storageFiles/schedule/0417.md)||[0417](storageFiles/trouble/0417T.md)|
 |**0418 : 케릭터 추가 완료하기** |||
 |0419 : |||
-|**0422 월: 유저테스트** |||
+|**유저테스트 생략** |||
 
 
 --- 
