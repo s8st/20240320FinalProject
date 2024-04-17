@@ -356,7 +356,7 @@ Remove 삭제
 ||||
 |[**유니티 맵,fx 등 : 코더캣**](https://www.youtube.com/@seranine/playlists)|[곽영호 : 유니티 스프라이트 이해하기](https://www.youtube.com/watch?v=u_5tUu9f9OQ)||
 |[[엔큐브] 유니티 2D 게임개발 기초 강좌](https://www.youtube.com/playlist?list=PLgX2DtsPa7hPGQznz3M6mIOokXVtrXKkC)|||
-
+|[`고박사 유니티 기초강의`: **16강**](https://www.youtube.com/playlist?list=PLC2Tit6NyVieQ6vVq9HX9zEJKjPZ8QNcn)|||
 
 
 </details>  
