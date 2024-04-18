@@ -11,3 +11,6 @@
 - FREE Casual Game SFX Pack : https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116  
 
 ![alt text](image-13.png)
+
+- 조이스틱 Joystick Pack : https://assetstore.unity.com/packages/tools/input-management/joystick-pack-107631
+- ![image](https://github.com/s8st/20240320FinalProject/assets/153998744/231fd097-4d09-4551-a939-fda4ca8bf187)
