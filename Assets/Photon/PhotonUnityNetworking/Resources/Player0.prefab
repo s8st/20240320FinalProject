@@ -5057,6 +5057,7 @@ GameObject:
   - component: {fileID: 6554071599761115375}
   - component: {fileID: 914890776121287248}
   - component: {fileID: 2387914730845350680}
+  - component: {fileID: 8364859304140000151}
   m_Layer: 8
   m_Name: Player0
   m_TagString: Player
@@ -5336,7 +5337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 4510924967479977423}
-  shootingClip: {fileID: 8300000, guid: c91fcf414acc0344cb03b13996f1bf3b, type: 3}
+  shootingClip: {fileID: 8300000, guid: 1eb7cbaf61d23a64bbd36c0a38b5cb0c, type: 3}
 --- !u!114 &6815407568117645033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5439,6 +5440,22 @@ MonoBehaviour:
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
   m_UseLocal: 1
+--- !u!114 &8364859304140000151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911952947192058447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a50f8c13426c554ea9813a0f6a7a2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  fixedJoystick: {fileID: 0}
+  rb: {fileID: 425754849578740653}
+  moveDir: {x: 0, y: 0}
 --- !u!1 &4342758891759732298
 GameObject:
   m_ObjectHideFlags: 0
@@ -5636,7 +5653,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7941789186330045058
 Transform:
   m_ObjectHideFlags: 0

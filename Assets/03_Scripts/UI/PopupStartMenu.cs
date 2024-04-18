@@ -16,6 +16,7 @@ public class PopupStartMenu : MonoBehaviour
     [SerializeField] private GameObject information;
     [SerializeField] private GameObject selectCharacter;
 
+
     //[SerializeField] private GameObject player0;
     //[SerializeField] private GameObject player1;
     //[SerializeField] private GameObject player2;

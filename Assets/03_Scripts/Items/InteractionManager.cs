@@ -26,13 +26,13 @@ public class InteractionManager : MonoBehaviour
     private IInteractable curInteractable;
 
     public TextMeshProUGUI promptText;
-    private Camera camera;
+   // private Camera camera;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        camera = Camera.main; //main ÅÂ±×¸¦ °¡Áö´Â Ä«¸Þ¶ó ÇÑ°³, ½Ì±ÛÅÏ »ç¿ëÇÏµíÀÌ ÇÏ³ª¸¸ °¡¸£Å´
+   //     camera = Camera.main; //main ï¿½Â±×¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½Þ¶ï¿½ ï¿½Ñ°ï¿½, ï¿½Ì±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å´
 
         _controller = GetComponent<TopDownCharacterController>();
 
@@ -45,55 +45,55 @@ public class InteractionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time - lastCheckTime > checkRate)
-        {
-            lastCheckTime = Time.time;
+        //if (Time.time - lastCheckTime > checkRate)
+        //{
+        //    lastCheckTime = Time.time;
 
-            // Screen : È­¸é
-            //Ä«¸Þ¶ó¿¡¼­ ½ºÅ©¸°Æ÷ÀÎÆ®·Î, ±¤¼±À» ½÷¼­ µÇµ¹¾Æ¿À´Â Á¤º¸¸¦ ÀÌ¿ë
-            // Ray ray = camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2)/*È­¸éÀÇ Áß¾Ó*/);
+        //    // Screen : È­ï¿½ï¿½
+        //    //Ä«ï¿½Þ¶ó¿¡¼ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Çµï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½
+        //    // Ray ray = camera.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2)/*È­ï¿½ï¿½ï¿½ï¿½ ï¿½ß¾ï¿½*/);
 
-            //Ray ray = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y, -Camera.main.transform.position.z));
+        //    //Ray ray = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y, -Camera.main.transform.position.z));
 
-            Ray ray = camera.ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
+        //    Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(Input.mousePosition.x, Input.mousePosition.y, -Camera.main.transform.position.z));
 
-            RaycastHit hit; // Ãæµ¹ Á¤º¸
+        //    RaycastHit hit; // ï¿½æµ¹ ï¿½ï¿½ï¿½ï¿½
 
-            // ref :¹ÝÈ¯°ªÀÌ ¾øÀ» ¼öµµ  out : ¹Ýµå½Ã ¹ÝÈ¯°ªÀÌ ÀÖÀ½ - nullÀÌ°Å³ª ´Ù¸¥ Á¤º¸°¡ ÀÖÀ½
-            if (Physics.Raycast(ray, out hit, maxCheckDistance, layerMask))
-            {
-                if (hit.collider.gameObject != curInteractGameobject)//±¤¼±¿¡ Ãæµ¹ÇÑ °´Ã¼ Á¤º¸¿Í ÀúÀåÇÑ °´Ã¼¿Í ´Ù¸£´Ù¸é
-                {
-                    curInteractGameobject = hit.collider.gameObject; //Ãæµ¹ÇÑ °´Ã¼
-                    curInteractable = hit.collider.GetComponent<IInteractable>();
-                    Debug.Log(curInteractable);
-                     SetPromptText();
-                }
-            }
-            else
-            {
-                //Ãæµ¹ÇÑ °´Ã¼°¡ ¾ø´Ù¸é null·Î ÃÊ±âÈ­
-                curInteractGameobject = null;
-                curInteractable = null;
-         //      promptText.gameObject.SetActive(false);
-            }
-        }
+        //    // ref :ï¿½ï¿½È¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½  out : ï¿½Ýµï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ - nullï¿½Ì°Å³ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        //    if (Physics.Raycast(ray, out hit, maxCheckDistance, layerMask))
+        //    {
+        //        if (hit.collider.gameObject != curInteractGameobject)//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½æµ¹ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½Ù¸ï¿½
+        //        {
+        //            curInteractGameobject = hit.collider.gameObject; //ï¿½æµ¹ï¿½ï¿½ ï¿½ï¿½Ã¼
+        //            curInteractable = hit.collider.GetComponent<IInteractable>();
+        //            Debug.Log(curInteractable);
+        //             SetPromptText();
+        //        }
+        //    }
+        //    else
+        //    {
+        //        //ï¿½æµ¹ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½Ù¸ï¿½ nullï¿½ï¿½ ï¿½Ê±ï¿½È­
+        //        curInteractGameobject = null;
+        //        curInteractable = null;
+        // //      promptText.gameObject.SetActive(false);
+        //    }
+        //}
     }
 
     private void SetPromptText()
     {
         promptText.gameObject.SetActive(true);
-        // htmlÅÂ±× Ã³¸®, <b> == bold
+        // htmlï¿½Â±ï¿½ Ã³ï¿½ï¿½, <b> == bold
         promptText.text = string.Format("<b>[E]</b> {0}", curInteractable.GetInteractPrompt());
     }
 
-    //PlayerÀÇ inspector¿¡¼­ Player InputÄÄÆ÷³ÍÆ®ÀÇ events¾Æ·¡¿¡ player¾Æ·¡¿¡ interact¿¡ º» °´Ã¼ Player¸¦ ¿¬°áÇÏ°í InteractionManager.OnInteractInput¿¬°áÇÏ±â
+    //Playerï¿½ï¿½ inspectorï¿½ï¿½ï¿½ï¿½ Player Inputï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ eventsï¿½Æ·ï¿½ï¿½ï¿½ playerï¿½Æ·ï¿½ï¿½ï¿½ interactï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ã¼ Playerï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ InteractionManager.OnInteractInputï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
     //public void OnInteractInput(InputAction.CallbackContext callbackContext)
     //{
-    //    if (callbackContext.phase == InputActionPhase.Started/*¸· ´­·È´Ù*/ && curInteractable != null)
-    //    // e°¡ ´­·ÁÁ³°í ´­¸° ½ÃÁ¡¿¡ ¹Ù¶óº¸°í ÀÖ´Â °Ô ÀÖ´Ù¸é
+    //    if (callbackContext.phase == InputActionPhase.Started/*ï¿½ï¿½ ï¿½ï¿½ï¿½È´ï¿½*/ && curInteractable != null)
+    //    // eï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¶óº¸°ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½
     //    {
-    //        //¾ÆÀÌÅÛÀ» ¸ÔÀ¸·Î »óÈ£ÀÛ¿ëÀ» ÁøÇàÇÏ°í ÃÊ±âÈ­ÇÏ°í ¾Èº¸ÀÌ°Ô
+    //        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ê±ï¿½È­ï¿½Ï°ï¿½ ï¿½Èºï¿½ï¿½Ì°ï¿½
     //        curInteractable.OnInteract();
     //        curInteractGameobject = null;
     //        curInteractable = null;
@@ -105,10 +105,10 @@ public class InteractionManager : MonoBehaviour
 
     public void OnInteractInput(InputAction.CallbackContext callbackContext)
     {
-        if (callbackContext.phase == InputActionPhase.Started/*¸· ´­·È´Ù*/ && curInteractable != null)
-        // e°¡ ´­·ÁÁ³°í ´­¸° ½ÃÁ¡¿¡ ¹Ù¶óº¸°í ÀÖ´Â °Ô ÀÖ´Ù¸é
+        if (callbackContext.phase == InputActionPhase.Started/*ï¿½ï¿½ ï¿½ï¿½ï¿½È´ï¿½*/ && curInteractable != null)
+        // eï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¶óº¸°ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½
         {
-            //¾ÆÀÌÅÛÀ» ¸ÔÀ¸·Î »óÈ£ÀÛ¿ëÀ» ÁøÇàÇÏ°í ÃÊ±âÈ­ÇÏ°í ¾Èº¸ÀÌ°Ô
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ê±ï¿½È­ï¿½Ï°ï¿½ ï¿½Èºï¿½ï¿½Ì°ï¿½
             curInteractable.OnInteract();
             curInteractGameobject = null;
             curInteractable = null;
@@ -121,9 +121,9 @@ public class InteractionManager : MonoBehaviour
     //public void OnInteract(InputValue value)
     //{
     //    if (value.isPressed && curInteractable != null)
-    //    // e°¡ ´­·ÁÁ³°í ´­¸° ½ÃÁ¡¿¡ ¹Ù¶óº¸°í ÀÖ´Â °Ô ÀÖ´Ù¸é
+    //    // eï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¶óº¸°ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½
     //    {
-    //        //¾ÆÀÌÅÛÀ» ¸ÔÀ¸·Î »óÈ£ÀÛ¿ëÀ» ÁøÇàÇÏ°í ÃÊ±âÈ­ÇÏ°í ¾Èº¸ÀÌ°Ô
+    //        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½Û¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ê±ï¿½È­ï¿½Ï°ï¿½ ï¿½Èºï¿½ï¿½Ì°ï¿½
     //        curInteractable.OnInteract();
     //        curInteractGameobject = null;
     //        curInteractable = null;

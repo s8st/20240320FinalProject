@@ -5,7 +5,7 @@ using UnityEngine;
 public class EquipTool : Equip // virtual 상속
 {
     public float attackRate;
-    private bool attacking;
+  //  private bool attacking;
     public float attackDistance;
 
     public float useStamina;
@@ -18,13 +18,13 @@ public class EquipTool : Equip // virtual 상속
     public int damage;
 
     private Animator animator;
-    private Camera camera;
+   // private Camera camera;
 
 
 
     private void Awake()
     {
-        camera = Camera.main;
+       // camera = Camera.main;
         animator = GetComponent<Animator>();
     }
 
@@ -51,7 +51,7 @@ public class EquipTool : Equip // virtual 상속
 
     void OnCanAttack()
     {
-        attacking = false;
+  //      attacking = false;
     }
 
     public void OnHit() //유니티 에니메이션(ctrl+6)에서 이벤트를 추가하고 inspector의 function에서 추가 연결하기

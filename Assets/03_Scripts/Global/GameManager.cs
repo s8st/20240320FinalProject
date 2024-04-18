@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> playerPrefabs = new List<GameObject>();
 
+    
 
     [Header("GManager=======================")]
     //==============================================================

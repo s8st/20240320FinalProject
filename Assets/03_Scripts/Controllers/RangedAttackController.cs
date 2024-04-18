@@ -115,6 +115,10 @@ public class RangedAttackController : MonoBehaviour
         if (createFx)
         {
             _projectileManager.CreateImpactParticlesAtPostion(position, _attackData);
+            
+            // 여기에 fx애니메이션 추가하면 될 것 같은데??
+            // 발사체 별로 폭발 fx 추가를 어떻게??
+
         }
         gameObject.SetActive(false); // 재사용을 위해 삭제하지 않고 감추기
     }
