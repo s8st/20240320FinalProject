@@ -30,7 +30,7 @@ public class PlayerInputController : TopDownCharacterController
     }
     public void OnLook(InputValue value)
     {
-     //  Debug.Log("OnLook" + value.ToString());
+       // Debug.Log("OnLook" + value.ToString());
         Vector2 newAim = value.Get<Vector2>(); // 마우스 포지션
         Vector2 worldPos = _camera.ScreenToWorldPoint(newAim); // 마우스 위치를 월드좌표값으로 변경
         newAim = (worldPos - (Vector2)transform.position).normalized;
@@ -66,11 +66,11 @@ public class PlayerInputController : TopDownCharacterController
     //    CallInteractEvent(newAim);
     //}
 
-    public void OnPickItem(InputValue value)
-    {
-        //  IsAttacking = value.isPressed;
-        CallPickItemEvent(value);
-    }
+    //public void OnPickItem(InputValue value)
+    //{
+    //    //  IsAttacking = value.isPressed;
+    //    CallPickItemEvent(value);
+    //}
 
      public void  OnInventory(InputValue value)
     {

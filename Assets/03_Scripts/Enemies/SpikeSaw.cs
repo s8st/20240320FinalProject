@@ -8,7 +8,7 @@ public class SpikeSaw : TopDownEnemyController
     [SerializeField] private string targetTag = "Player";
     private bool _isCollidingWithTarget;
 
-    [SerializeField] private SpriteRenderer characterRenderer;
+  //  [SerializeField] private SpriteRenderer characterRenderer;
 
 
     private HealthSystem healthSystem;
@@ -19,15 +19,15 @@ public class SpikeSaw : TopDownEnemyController
     {
         base.Start();// 부모의 함수부터 실행
 
-        healthSystem = GetComponent<HealthSystem>();
-        healthSystem.OnDamage += OnDamage;
+        //healthSystem = GetComponent<HealthSystem>();
+        //healthSystem.OnDamage += OnDamage;
 
     }
 
     private void OnDamage()
     {
         // 데미지를 받았을때 followRange를 확대해서 잘 따라오게
-        followRange = 100f;
+     //   followRange = 100f;
     }
 
     protected override void FixedUpdate()
@@ -93,8 +93,15 @@ public class SpikeSaw : TopDownEnemyController
         bool hasBeenChanged = _collidingTargetHealthSystem.ChangeHealth(-attackSO.power/*+를 주면 회복해 버린다*/);
         if (attackSO.isOnKnockback && _collidingMovement != null)
         {
-            _collidingMovement.ApplyKnockback(transform, attackSO.knockbackPower, attackSO.knockbackTime);
+            //_collidingMovement.ApplyKnockback(transform, attackSO.knockbackPower, attackSO.knockbackTime);
+            _collidingMovement.ApplyKnockbackSaw(transform, attackSO.knockbackPower, attackSO.knockbackTime);
         }
     }
 
+
+    //public void ApplyKnockback(Transform other, float power, float duration)
+    //{
+    //    knockbackDuration = duration;
+    //    _knockback = -(other.position - transform.position).normalized * power;
+    //}
 }

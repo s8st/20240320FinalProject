@@ -33,6 +33,7 @@ public class Character
 
 public class GameManager : MonoBehaviour
 {
+   
     [Header("CharacterSelect")]
     public List<Character> CharacterList = new List<Character>();
 
@@ -46,6 +47,8 @@ public class GameManager : MonoBehaviour
     //==============================================================
     public static GameManager instance; //싱글톤환
 
+    
+
     public Transform Player { get; private set; }
     [SerializeField] private string playerTag = "Player";
 
@@ -56,7 +59,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameOverUI; //using UnityEngine.UI;
 
 
-    [SerializeField] private int currentWaveIndex = 0;
+  //  [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
     private int waveSpawnCount = 10;
     private int waveSpawnPosCount = 6;
@@ -95,7 +98,7 @@ public class GameManager : MonoBehaviour
         }
 
         Init(name); // 3. 넘겨받은 name 인자를 Init에서 다시 넘겨 받음 
-
+        
 
 
     }
@@ -114,6 +117,7 @@ public class GameManager : MonoBehaviour
         playerHealthSystem.OnDeath += GameOver;
 
         gameOverUI.SetActive(false);
+      
 
         for (int i = 0; i < spawnPositionsRoot.childCount; i++)
         {
@@ -122,6 +126,8 @@ public class GameManager : MonoBehaviour
         }
         UpgradeStatInit();
         StartCoroutine("StartNextWave");
+
+
     }
 
 

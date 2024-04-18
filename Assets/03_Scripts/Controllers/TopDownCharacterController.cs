@@ -13,7 +13,7 @@ public class TopDownCharacterController : MonoBehaviour
     public event Action<Vector2> OnLookEvent;
     public event Action<AttackSO> OnAttackEvent;
 
-    public event Action<InputValue> OnInventoryEvent;
+  //  public event Action<InputValue> OnInventoryEvent;
     public event Action<InputValue> OnPickItemEvent;
     public event Action<Vector2> OnInteractEvent;
 

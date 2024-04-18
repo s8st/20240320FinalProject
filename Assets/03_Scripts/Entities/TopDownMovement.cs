@@ -57,7 +57,11 @@ public class TopDownMovement : MonoBehaviour
         _knockback = -(other.position - transform.position).normalized * power;
     }
 
-
+    public void ApplyKnockbackSaw(Transform other, float power, float duration)
+    {
+        knockbackDuration = duration;
+        _knockback = (other.position - transform.position).normalized * power;
+    }
 
     private void ApplyMovement(Vector2 direction)
     {
