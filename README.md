@@ -171,7 +171,7 @@ fixedJoystick.gameObject.SetActive(true);
 |[0415 : `스프라이트 공부` <br> - ✅포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)|
 |[0416 : `포토샵작업`<br>- ✅스노우맨 케릭터 추가<br>- ✅ 물풍선 만들기 ](storageFiles/schedule/0416.md)  ||[0416](storageFiles/trouble/0416T.md)|
 |[0417 : `기존 에셋 자료 게임에 반영하기`<br>-🔺몬스터 추가하기 <br>-✅ 맵 추가하기<br>- ❌조이스틱 추가<br>- ✅발사체 애니메이션](storageFiles/schedule/0417.md)||[0417](storageFiles/trouble/0417T.md)|
-|[0418 : <br>- 케릭터 조준 오류 수정하기 <br>- 🔺몬스터 추가하기  <br>- ❌조이스틱 달아보기 <br>-✅ 맵에 만든 지뢰에 데미지 추가하기](storageFiles/schedule/0418.md)  ||[0418](storageFiles/trouble/0418T.md)||
+|[0418 : <br>- ✅케릭터 조준 오류 수정하기 <br>- 🔺몬스터 추가하기  <br>- ❌조이스틱 달아보기 <br>-✅ 맵에 만든 지뢰에 데미지 추가하기](storageFiles/schedule/0418.md)  ||[0418](storageFiles/trouble/0418T.md)||
 |0419 :- 발사체 별로 fx 변경하기<br><br><br> |||
 |**유저테스트 생략** |||
 
