@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameOverUI; //using UnityEngine.UI;
 
 
-  //  [SerializeField] private int currentWaveIndex = 0;
+   [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
     private int waveSpawnCount = 10;
     private int waveSpawnPosCount = 6;
@@ -232,7 +232,7 @@ public class GameManager : MonoBehaviour
         {
             if (currentSpawnCount == 0) // 소환되어 있는 객체들의 갯수: 0이라면 처음이거나 다 잡았거나
             {
-                //   UpdateWaveUI(); // 웨이브 최신화하기
+                UpdateWaveUI(); // 웨이브 최신화하기
                 yield return new WaitForSeconds(2f); // 2초후 다음 코드로
 
                 //if (currentWaveIndex % 1 == 0) // 20 --> 1 난이도 조절
@@ -313,7 +313,7 @@ public class GameManager : MonoBehaviour
                     //enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
                 }
 
-
+                currentWaveIndex++;
             }
 
             yield return null;
@@ -411,11 +411,11 @@ public class GameManager : MonoBehaviour
         StopAllCoroutines(); // 동작하는 모든 코루틴을 멈춰라
     }
 
-    //private void UpdateWaveUI()
-    //{
-    //    // waveText.text = 
-    //    waveText.text = (currentWaveIndex + 1).ToString();
-    //}
+    private void UpdateWaveUI()
+    {
+        // waveText.text = 
+        waveText.text = (currentWaveIndex + 1).ToString();
+    }
 
     public void RestartGame()
     {

@@ -17,8 +17,8 @@ public class JoystickPlayer : MonoBehaviour
         //float x = Input.GetAxisRaw("Horizontal") + fixedJoystick.Horizontal; 
         //float y =Input.GetAxisRaw("Vertical") + fixedJoystick.Vertical;
 
-        float x = fixedJoystick.Horizontal;
-        float y = fixedJoystick.Vertical;
+        //float x = fixedJoystick.Horizontal;
+        //float y = fixedJoystick.Vertical;
 
         //moveDir = new Vector2(x, y);
 
