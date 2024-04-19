@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
     public List<GameObject> playerPrefabs = new List<GameObject>();
 
-    
+    public List<GameObject> levelPrefabs = new List<GameObject>();
 
     [Header("GManager=======================")]
     //==============================================================
@@ -314,6 +314,10 @@ public class GameManager : MonoBehaviour
                 }
 
                 currentWaveIndex++;
+
+                GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex-1], transform.position, Quaternion.identity);
+                levelPrefab.SetActive(true);
+
             }
 
             yield return null;
