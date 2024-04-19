@@ -315,6 +315,7 @@ public class GameManager : MonoBehaviour
 
                 currentWaveIndex++;
 
+                // 맵에 지뢰를 게속 추가하게 만든다
                 GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex-1], transform.position, Quaternion.identity);
                 levelPrefab.SetActive(true);
 
