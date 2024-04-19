@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using static UnityEngine.InputSystem.InputAction;
+//using static UnityEngine.InputSystem.InputAction;
 
 public interface IInteractable
 {
@@ -22,7 +22,7 @@ public class InteractionManager : MonoBehaviour
 
     private TopDownCharacterController _controller;
 
-    private GameObject curInteractGameobject;
+   // private GameObject curInteractGameobject;
     private IInteractable curInteractable;
 
     public TextMeshProUGUI promptText;
@@ -105,15 +105,15 @@ public class InteractionManager : MonoBehaviour
 
     public void OnInteractInput(InputAction.CallbackContext callbackContext)
     {
-        if (callbackContext.phase == InputActionPhase.Started/*�� ���ȴ�*/ && curInteractable != null)
-        // e�� �������� ���� ������ �ٶ󺸰� �ִ� �� �ִٸ�
-        {
-            //�������� ������ ��ȣ�ۿ��� �����ϰ� �ʱ�ȭ�ϰ� �Ⱥ��̰�
-            curInteractable.OnInteract();
-            curInteractGameobject = null;
-            curInteractable = null;
-            promptText.gameObject.SetActive(false);
-        }
+        //if (callbackContext.phase == InputActionPhase.Started/*�� ���ȴ�*/ && curInteractable != null)
+        //// e�� �������� ���� ������ �ٶ󺸰� �ִ� �� �ִٸ�
+        //{
+        //    //�������� ������ ��ȣ�ۿ��� �����ϰ� �ʱ�ȭ�ϰ� �Ⱥ��̰�
+        //    curInteractable.OnInteract();
+        //    curInteractGameobject = null;
+        //    curInteractable = null;
+        //    promptText.gameObject.SetActive(false);
+        //}
     }
 
 

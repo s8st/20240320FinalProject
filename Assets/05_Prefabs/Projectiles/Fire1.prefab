@@ -126,6 +126,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   fxOnDestory: 1
+  fxOnDestoryBomb: 0
+  fxOnDestoryBubble: 0
+  fxOnDestoryFire: 1
+  fxOnDestorySnow: 0
+  fxOnDestoryWaveForm: 0
+  fxOnDestoryWind: 0
 --- !u!96 &-6881015026392132696
 TrailRenderer:
   serializedVersion: 3

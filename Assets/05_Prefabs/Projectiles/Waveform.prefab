@@ -238,6 +238,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   fxOnDestory: 1
+  fxOnDestoryBomb: 0
+  fxOnDestoryBubble: 0
+  fxOnDestoryFire: 0
+  fxOnDestorySnow: 0
+  fxOnDestoryWaveForm: 1
+  fxOnDestoryWind: 0
 --- !u!95 &1065979024946691223
 Animator:
   serializedVersion: 5

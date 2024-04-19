@@ -17,7 +17,15 @@ public class RangedAttackController : MonoBehaviour
     private TrailRenderer _trailRenderer;
     private ProjectileManager _projectileManager;
 
-    public bool fxOnDestory = true;
+    // bool을 여러개 만들어서 fx구분이 가능할 것 같은데...
+    public bool fxOnDestory = true; 
+    public bool fxOnDestoryBomb =  false; 
+    public bool fxOnDestoryBubble = false; 
+    public bool fxOnDestoryFire = false; 
+    public bool fxOnDestorySnow = false; 
+    public bool fxOnDestoryWaveForm = false; 
+    public bool fxOnDestoryWind = false; 
+
 
     private void Awake()
     {
@@ -120,6 +128,9 @@ public class RangedAttackController : MonoBehaviour
             // 발사체 별로 폭발 fx 추가를 어떻게??
 
         }
+
+
+
         gameObject.SetActive(false); // 재사용을 위해 삭제하지 않고 감추기
     }
 }

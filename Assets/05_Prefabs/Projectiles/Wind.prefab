@@ -105,6 +105,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   fxOnDestory: 1
+  fxOnDestoryBomb: 0
+  fxOnDestoryBubble: 0
+  fxOnDestoryFire: 0
+  fxOnDestorySnow: 0
+  fxOnDestoryWaveForm: 0
+  fxOnDestoryWind: 1
 --- !u!50 &-273000790231938222
 Rigidbody2D:
   serializedVersion: 4
