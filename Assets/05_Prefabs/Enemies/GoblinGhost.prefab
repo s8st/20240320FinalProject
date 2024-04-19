@@ -40,7 +40,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &466445809815998562
 BoxCollider2D:
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   followRange: 30
   targetTag: Player
-  characterRenderer: {fileID: 0}
+  characterRenderer: {fileID: -7375043360846992796}
 --- !u!114 &7159475927106971131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,7 +295,7 @@ Animator:
   m_GameObject: {fileID: 3101356457231158901}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8db9cd675455e45b39862c1ad34c6686, type: 2}
+  m_Controller: {fileID: 9100000, guid: 360e4b257173e9247a4950882530a281, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
