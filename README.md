@@ -161,7 +161,8 @@ fixedJoystick.gameObject.SetActive(true);
 
 ---  
 
-
+24일 개발 마감  
+25일 브로셔 작성  
 
 
 ### `📝 개발일지  `
