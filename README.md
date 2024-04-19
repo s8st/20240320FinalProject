@@ -96,22 +96,6 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 
 
 
-<details >
-    <summary >케릭터, 아이템 요약 작성중   </summary> 
-
-|||
-|:------:|:------:|
-|[물약아이템](storageFiles/아이템/Item.md)||
-|케릭터||
-|맵||
-|장비||
-|발사체||
-|배경음악|[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)|
-
-
-[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)
-</details>  
-
 
 <br>  
 
@@ -141,42 +125,48 @@ sever접속 ---> (lobby -->) room 생성
 
 ---  
 
-```
-5강. 코인 먹기 게임 만들기- 승리 판정과 재시작 :
-모바일을 위한 조이스틱 추가방법 + 윈도우에서는 안보이게
-
-함수 내에 이렇게 전처리기를 쓰시면 되요.
-#if UNITY_STANDALONE
-// 조이스틱 숨기기
-fixedJoystick.gameObject.SetActive(false);
-#elif UNITY_ANDROID || UNITY_IOS
-// 조이스틱 표시
-fixedJoystick.gameObject.SetActive(true);
-#endif...
-
-```
 
 
-> 포토샵에서 html 파일 생성 테스트  
+
+
 
 ---  
 
-24일 개발 마감  
-25일 브로셔 작성  
+
 
 
 ### `📝 개발일지  `
 
-| 0415 ~ 0419   | | 문제점    |
-|:------------------|------------------:|------------------:|
-|[0415 : `스프라이트 공부` <br> - ✅포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)|
-|[0416 : `포토샵작업`<br>- ✅스노우맨 케릭터 추가<br>- ✅ 물풍선 만들기 ](storageFiles/schedule/0416.md)  ||[0416](storageFiles/trouble/0416T.md)|
-|[0417 : `기존 에셋 자료 게임에 반영하기`<br>-🔺몬스터 추가하기 <br>-✅ 맵 추가하기<br>- ❌조이스틱 추가<br>- ✅발사체 애니메이션](storageFiles/schedule/0417.md)||[0417](storageFiles/trouble/0417T.md)|
-|[0418 : <br>- ✅케릭터 조준 오류 수정하기 <br>- 🔺몬스터 추가하기  <br>- ❌조이스틱 달아보기 <br>-✅ 맵에 만든 지뢰에 데미지 추가하기](storageFiles/schedule/0418.md)  ||[0418](storageFiles/trouble/0418T.md)||
-|[0419 :<br>- ❌발사체 별로 fx 변경하기<br>- ✅ 몬스터 애니메이션 오류 수정하기<br>- ❌ 조이스틱 연결해보기<br>- 🔺 맵 전환 --> wave증가할때 지뢰 증가로 변경<br><br>](storageFiles/schedule/0419.md) ||[0419 : 애니메이션 오류<br>](storageFiles/trouble/0419T.md)||
-|**유저테스트 생략** |||
+| 0422 ~ 0426   |  문제점    |
+|:------------------|------------------:|
+|0422 : <br>- [?]발사체 별로 fx 변경하기<br>- <br>- [ ] 조이스틱 연결해보기<br>- [ ] wave증가할 때 지뢰 증가||
+|0423<br><br>||
+|**`0424 : 개발 마감`** ||
+|0425 : 브로셔 작성  ||
+|0426 : ||
 
-- https://www.youtube.com/watch?v=GGqwMGZiwCg
+포토샵에서 html 파일 생성 테스트  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 --- 
@@ -331,6 +321,33 @@ gantt
 </details>  
 
 
+<details >
+    <summary > 📝 개발일지 0415 ~ 0419  </summary> 
+
+
+
+
+
+### `📝 개발일지  `
+
+| 0415 ~ 0419   | | 문제점    |
+|:------------------|------------------:|------------------:|
+|[0415 : `스프라이트 공부` <br> - ✅포톤:6~7강 따라하기](storageFiles/schedule/0415.md) ||[0415](storageFiles/trouble/0415T.md)|
+|[0416 : `포토샵작업`<br>- ✅스노우맨 케릭터 추가<br>- ✅ 물풍선 만들기 ](storageFiles/schedule/0416.md)  ||[0416](storageFiles/trouble/0416T.md)|
+|[0417 : `기존 에셋 자료 게임에 반영하기`<br>-🔺몬스터 추가하기 <br>-✅ 맵 추가하기<br>- ❌조이스틱 추가<br>- ✅발사체 애니메이션](storageFiles/schedule/0417.md)||[0417](storageFiles/trouble/0417T.md)|
+|[0418 : <br>- ✅케릭터 조준 오류 수정하기 <br>- 🔺몬스터 추가하기  <br>- ❌조이스틱 달아보기 <br>-✅ 맵에 만든 지뢰에 데미지 추가하기](storageFiles/schedule/0418.md)  ||[0418](storageFiles/trouble/0418T.md)||
+|[0419 :<br>- ❌발사체 별로 fx 변경하기<br>- ✅ 몬스터 애니메이션 오류 수정하기<br>- ❌ 조이스틱 연결해보기<br>- 🔺 맵 전환 --> wave증가할때 지뢰 증가로 변경<br><br>](storageFiles/schedule/0419.md) ||[0419 : 애니메이션 오류<br>](storageFiles/trouble/0419T.md)||
+|**유저테스트 생략** |||
+
+- https://www.youtube.com/watch?v=GGqwMGZiwCg
+
+
+
+
+</details>  
+
+
+---  
 
 
 ```
@@ -364,6 +381,26 @@ Remove 삭제
 
 
 </details>  
+
+
+---   
+
+<details >
+    <summary >케릭터, 아이템 요약 작성중   </summary> 
+
+|||
+|:------:|:------:|
+|[물약아이템](storageFiles/아이템/Item.md)||
+|케릭터||
+|맵||
+|장비||
+|발사체||
+|배경음악|[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)|
+
+
+[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)
+</details>  
+
 
 
 ---
@@ -410,6 +447,20 @@ Remove 삭제
 
 
 
+```
+5강. 코인 먹기 게임 만들기- 승리 판정과 재시작 :
+모바일을 위한 조이스틱 추가방법 + 윈도우에서는 안보이게
+
+함수 내에 이렇게 전처리기를 쓰시면 되요.
+#if UNITY_STANDALONE
+// 조이스틱 숨기기
+fixedJoystick.gameObject.SetActive(false);
+#elif UNITY_ANDROID || UNITY_IOS
+// 조이스틱 표시
+fixedJoystick.gameObject.SetActive(true);
+#endif...
+
+```
 
 <!-- <details >
     <summary >`📝 개발일지  `  </summary> 
