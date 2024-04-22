@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private CharacterStats defaultStats;
     [SerializeField] private CharacterStats rangedStats;
 
-
+    public Joystick joystick;
     
 
 
