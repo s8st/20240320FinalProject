@@ -118,8 +118,8 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 
 ---  
 
-
-
+https://coderzero.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-C-%EA%B0%95%EC%A2%8C-16-%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0-%EC%A7%80%EC%8B%9C%EC%96%B4Preprocessor-Directive  
+UNITY_WEBGL : WebGL을 위한 #define 지시어  
 
 ### `📝 개발일지  `
 
