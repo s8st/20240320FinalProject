@@ -58,6 +58,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI waveText; //using TMPro;
     [SerializeField] private Slider hpGaugeSlider;  //using UnityEngine.UI;
     [SerializeField] private GameObject gameOverUI; //using UnityEngine.UI;
+    [SerializeField] private GameObject gameEndUI; //using UnityEngine.UI;
 
 
    [SerializeField] private int currentWaveIndex = 0;
@@ -118,7 +119,7 @@ public class GameManager : MonoBehaviour
         playerHealthSystem.OnDeath += GameOver;
 
         gameOverUI.SetActive(false);
-      
+        gameEndUI.SetActive(false);
 
         for (int i = 0; i < spawnPositionsRoot.childCount; i++)
         {
@@ -319,7 +320,11 @@ public class GameManager : MonoBehaviour
                 //GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex-1], transform.position, Quaternion.identity);
                 GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex], transform.position, Quaternion.identity);
                 levelPrefab.SetActive(true);
-
+                
+                if(currentWaveIndex > 4)
+                {
+                    GameEnd();
+                }
             }
 
             yield return null;
@@ -410,6 +415,14 @@ public class GameManager : MonoBehaviour
     }
 
 
+    private void GameEnd()
+    {
+        gameEndUI.SetActive(true);
+        StopAllCoroutines(); // 동작하는 모든 코루틴을 멈춰라
+
+    }
+
+    
 
     private void GameOver()
     {
