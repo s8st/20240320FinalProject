@@ -20226,6 +20226,10 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 271768209}
+    - target: {fileID: 6815407568117645033, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
+      propertyPath: baseStats.maxHealth
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8364859304140000151, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: fixedJoystick
       value: 
