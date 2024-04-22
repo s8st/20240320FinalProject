@@ -20,7 +20,7 @@ public class PlayerInputController : TopDownCharacterController
 
     protected override void Update()
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID || UNITY_WEBGL
         if (Input.GetMouseButtonDown(0))
         {
             IsAttacking = true;
@@ -41,7 +41,7 @@ public class PlayerInputController : TopDownCharacterController
 
     private void FixedUpdate()
     {
-#if UNITY_ANDROID
+#if UNITY_ANDROID || UNITY_WEBGL
         joystickValue.x = GameManager.instance.joystick.Horizontal;
         joystickValue.y = GameManager.instance.joystick.Vertical;
         CallMoveEvent(joystickValue);

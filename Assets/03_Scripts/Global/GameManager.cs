@@ -61,6 +61,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject gameEndUI; //using UnityEngine.UI;
 
 
+
    [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
     private int waveSpawnCount = 10;
