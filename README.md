@@ -125,7 +125,7 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 
 | 0422 ~ 0426   |  문제점    |
 |:------------------|------------------:|
-|[0422 :<br>- ✅wave증가할 때 지뢰 증가 <br>- ✅wave 5까지 추가할 지뢰 만들기 <br>- ❌wave5되면 게임오버 띄우기  <br>- ✅(4-3강)캠포지션 변경<br>- ❌케릭터UI왼쪽 화면 4강](storageFiles/schedule/0422.md) |[0422 :- 캠 추적<br>-맵 위치<br>-안드로이드빌드](storageFiles/trouble/0422T.md) |
+|[0422 :<br>- 🔺조이스틱 추가 <br>- ✅wave 5까지 추가할 지뢰 만들기 <br>- ✅wave5되면 게임오버 띄우기  <br>- ✅(4-3강)캠포지션 변경<br>- ❌케릭터UI왼쪽 화면 4강](storageFiles/schedule/0422.md) |[0422 :- 캠 추적<br>-맵 위치<br>-안드로이드빌드<br>- 조이스틱 ](storageFiles/trouble/0422T.md) |
 |0423 :  <br>- 발사체 별로 fx 변경하기<br><br>||
 |**`0424 : 개발 마감`**<br>- 케릭터 선택 창 꾸미기<br> |------------------|
 |0425 : 브로셔 작성<br><br>  ||
