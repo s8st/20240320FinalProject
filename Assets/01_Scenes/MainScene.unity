@@ -2012,10 +2012,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1782459019}
     m_Modifications:
-    - target: {fileID: 2929252283123773937, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 48c0d4d6bebaa934384b07aa1e2f8184, type: 3}
     - target: {fileID: 2929252283123773938, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2104,22 +2100,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fixed Joystick
       objectReference: {fileID: 0}
-    - target: {fileID: 2929252283123773939, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-      propertyPath: snapX
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-      propertyPath: snapY
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2929252285020698103, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a6c56474666ce0647bdb766e9b4764b3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4504,7 +4484,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 44
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 44
@@ -4514,7 +4494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: join
+  m_Text: "\uC2DC\uC791\uD558\uAE30"
 --- !u!222 &544998165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4687,31 +4667,31 @@ MonoBehaviour:
   pools:
   - tag: Fire
     prefab: {fileID: 8773557093075512927, guid: cfb2b89a27680cf44b577d84840f98bc, type: 3}
-    size: 50
+    size: 300
   - tag: Bomb
     prefab: {fileID: 8773557093075512927, guid: e34eca58d74f2e54d981ca34f13fdf1e, type: 3}
-    size: 50
+    size: 300
   - tag: Snow
     prefab: {fileID: 8773557093075512927, guid: a95a44652c5d97e45a966e7be034b6b9, type: 3}
-    size: 50
+    size: 300
   - tag: Wind
     prefab: {fileID: 8773557093075512927, guid: 4cc371a485c5c4b4698bbe02a354e14d, type: 3}
-    size: 50
+    size: 300
   - tag: Fire1
     prefab: {fileID: 162026, guid: 7e29bfda6ae9b41179eef7f4860e49ac, type: 3}
-    size: 50
+    size: 300
   - tag: Arrow
     prefab: {fileID: 5673029370216385, guid: 0968ceba63c175743a08a7c83597a6f6, type: 3}
-    size: 50
+    size: 300
   - tag: Bubble
     prefab: {fileID: 5673029370216385, guid: 956cfc73fe6be0248940f5d0339cfda5, type: 3}
-    size: 50
+    size: 300
   - tag: Bubble2
     prefab: {fileID: 5673029370216385, guid: 956cfc73fe6be0248940f5d0339cfda5, type: 3}
-    size: 50
+    size: 300
   - tag: Waveform
     prefab: {fileID: 2613506405600848015, guid: e331f7821c124f74f9e4a1fe4a0f5019, type: 3}
-    size: 50
+    size: 300
 --- !u!4 &577289903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1659647453035221617, guid: 93a7c532f676d6941bd0cc13aa22a6f8, type: 3}
@@ -5487,7 +5467,7 @@ MonoBehaviour:
   gameOverUI: {fileID: 229260643}
   gameEndUI: {fileID: 1805672916}
   currentWaveIndex: 0
-  spawnInterval: 0.5
+  spawnInterval: 0.3
   enemyPrefebs:
   - {fileID: 3101356457231158901, guid: 60f79afc87ce53040a8cd14395faad9f, type: 3}
   - {fileID: 7698582645506167780, guid: c72b130bd35fc5f42a812fc810e54bf6, type: 3}
@@ -5519,7 +5499,7 @@ MonoBehaviour:
     maxHealth: 1
     speed: 1
     attackSO: {fileID: 11400000, guid: e6811f398dfcf994182d3d3baa0023d6, type: 2}
-  joystick: {fileID: 0}
+  joystick: {fileID: 418013026}
 --- !u!1001 &764905378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6165,7 +6145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2784314}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6660,7 +6640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.45056072, g: 0.764151, b: 0.4864663, a: 1}
+  m_Color: {r: 0.3018868, g: 0.252047, b: 0.252047, a: 0.44705883}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13188,7 +13168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.746467, g: 0.71675867, b: 0.8584906, a: 1}
+  m_Color: {r: 0.60864025, g: 0.6415094, b: 0.493236, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -14443,7 +14423,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1217170598
 MonoBehaviour:
@@ -15924,7 +15904,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -361, y: 0}
-  m_SizeDelta: {x: 250, y: 300}
+  m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436862713
 MonoBehaviour:
@@ -15995,14 +15975,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0.70980394}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 84487d73ca4b791498332d8f6858417f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18593,7 +18573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  m_Color: {r: 0.10435206, g: 0.113329, b: 0.6320754, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18613,7 +18593,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter text...
+  m_Text: "\uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694"
 --- !u!222 &1889410700
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20964,15 +20944,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 914890776121287248, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: sceneViewId
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1911952947192058447, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: m_Name
       value: Player0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1911952947192058447, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3278900407933056738, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: m_RootOrder
@@ -21022,10 +20998,6 @@ PrefabInstance:
       propertyPath: promptText
       value: 
       objectReference: {fileID: 271768209}
-    - target: {fileID: 6815407568117645033, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
-      propertyPath: baseStats.maxHealth
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 8364859304140000151, guid: 53ed9b687e5f10f498be3959002cfb85, type: 3}
       propertyPath: fixedJoystick
       value: 
@@ -21045,7 +21017,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4802353439183179785, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
       propertyPath: sceneViewId
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6414851288081394242, guid: 247d9cd5845ecca498ae35efc827515f, type: 3}
       propertyPath: m_RootOrder

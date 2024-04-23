@@ -153,7 +153,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        //Time.timeScale = 0f;
+        Time.timeScale = 1.0f;
 
         instance = this;
 
@@ -315,17 +315,20 @@ public class GameManager : MonoBehaviour
                     //enemy.GetComponent<HealthSystem>().OnDeath += CreateReward;
                 }
 
-                currentWaveIndex++;
+               
 
                 // 맵에 지뢰를 게속 추가하게 만든다
                 //GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex-1], transform.position, Quaternion.identity);
                 GameObject levelPrefab = Instantiate(levelPrefabs[currentWaveIndex], transform.position, Quaternion.identity);
                 levelPrefab.SetActive(true);
-                
-                if(currentWaveIndex > 4)
+
+                currentWaveIndex++;
+
+                if (currentWaveIndex >= 4)
                 {
                     GameEnd();
                 }
+
             }
 
             yield return null;
@@ -420,7 +423,7 @@ public class GameManager : MonoBehaviour
     {
         gameEndUI.SetActive(true);
         StopAllCoroutines(); // 동작하는 모든 코루틴을 멈춰라
-
+        Time.timeScale = 0.0f;
     }
 
     

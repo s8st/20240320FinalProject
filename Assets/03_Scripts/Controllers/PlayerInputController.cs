@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.InputSystem.InputAction;
+//using static UnityEngine.InputSystem.InputAction;
+using static UnityEngine.InputSystem.InputValue;
 
 public class PlayerInputController : TopDownCharacterController
 {
@@ -36,32 +37,41 @@ public class PlayerInputController : TopDownCharacterController
             }
         }
 #endif
+
+
         base.Update();
     }
 
-    private void FixedUpdate()
-    {
-#if UNITY_ANDROID || UNITY_WEBGL
-        joystickValue.x = GameManager.instance.joystick.Horizontal;
-        joystickValue.y = GameManager.instance.joystick.Vertical;
-        CallMoveEvent(joystickValue);
-#endif
-    }
+//    private void FixedUpdate()
+//    {
+//#if UNITY_ANDROID || UNITY_WEBGL 
+//        joystickValue.x = GameManager.instance.joystick.Horizontal;
+//        joystickValue.y = GameManager.instance.joystick.Vertical;
+
+//        CallMoveEvent(joystickValue);
+//#endif
+
+
+
+//    }
 
     public void OnMove(InputValue value)
     {
-#if UNITY_EDITOR || UNITY_STANDALONE_WIN
+  //#if UNITY_EDITOR || UNITY_STANDALONE_WIN
         // Debug.Log("Onmove"+value.ToString());
         Vector2 moveInput = value.Get<Vector2>().normalized;
         // normalized : 크기를 1인 단위벡터로 만들어서 방향값만 가지게
         // TopDownCharacterController에서 방향값을 인자로 받음
 
-        CallMoveEvent(moveInput);
-#endif
+        //joystickValue.x = GameManager.instance.joystick.Horizontal;
+        //joystickValue.y = GameManager.instance.joystick.Vertical;
+
+        CallMoveEvent(moveInput /*+ joystickValue*/);
+   //#endif
     }
     public void OnLook(InputValue value)
     {
-#if UNITY_EDITOR || UNITY_STANDALONE_WIN
+    //#if UNITY_EDITOR || UNITY_STANDALONE_WIN
 
         // Debug.Log("OnLook" + value.ToString());
         Vector2 newAim = value.Get<Vector2>(); // 마우스 포지션
@@ -74,18 +84,18 @@ public class PlayerInputController : TopDownCharacterController
         {
             CallLookEvent(newAim);
         }
-#endif
+    //#endif
     }
     //public void OnFire(InputValue value)
     public void OnFire(InputValue value)
     {
-#if UNITY_EDITOR || UNITY_STANDALONE_WIN
+    //#if UNITY_EDITOR || UNITY_STANDALONE_WIN
 
         // Debug.Log("OnFire" + value.ToString());
 
         //  IsAttacking = value.isPressed;
         IsAttacking = value.isPressed;
-#endif
+        //#endif
     }
 
     //public void OnInteract(InputValue value)
