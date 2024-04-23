@@ -112,9 +112,9 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 ---  
 
 
+[ppt 테스트](https://s8st.github.io/20240320FinalProject/ppt/index.html)
 
-
-
+https://revealjs.com/
 
 ---  
 
