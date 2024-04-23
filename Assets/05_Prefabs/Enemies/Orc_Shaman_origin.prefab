@@ -160,7 +160,7 @@ MonoBehaviour:
   baseStats:
     statsChangeType: 2
     maxHealth: 3
-    speed: 0
+    speed: 1
     attackSO: {fileID: 11400000, guid: 8f5bb9c917abca04fb1ca29299e0f865, type: 2}
   statsModifiers: []
 --- !u!114 &5455074938358849783
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followRange: 30
-  shootRange: 20
+  shootRange: 30
 --- !u!114 &1335490469066265445
 MonoBehaviour:
   m_ObjectHideFlags: 0

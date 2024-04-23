@@ -19,7 +19,8 @@ public class CharacterStats
     //public AttackSO attackSO;
 
     public StatsChangeType statsChangeType;
-    [Range(0, 100)] public int maxHealth;
-    [Range(0, 20f)] public float speed;
+    [Range(0, 1000)] public int maxHealth;
+    //[Range(0, 20f)] public float speed;
+    [Range(0, 10f)] public float speed;
     public AttackSO attackSO;
 }

@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
 
    [SerializeField] private int currentWaveIndex = 0;
     private int currentSpawnCount = 0;
-    private int waveSpawnCount = 10;
+    private int waveSpawnCount = 15;
     private int waveSpawnPosCount = 6;
 
     public float spawnInterval = .5f;
@@ -324,7 +324,7 @@ public class GameManager : MonoBehaviour
 
                 currentWaveIndex++;
 
-                if (currentWaveIndex >= 4)
+                if (currentWaveIndex > 6)
                 {
                     GameEnd();
                 }
