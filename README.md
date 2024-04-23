@@ -116,6 +116,7 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 - 구글 슬라이드
 - https://revealjs.com/
 - https://github.com/impress/impress.js?tab=readme-ov-file
+    - http://s8st.github.io/impress.js/#/its 
 
 [ppt 테스트](https://s8st.github.io/20240320FinalProject/ppt/index.html)
 
