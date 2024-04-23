@@ -112,6 +112,7 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 ---  
 발표  
 - https://prezi.com/
+    - https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/
 - 구글 슬라이드
 - https://revealjs.com/
 - https://github.com/impress/impress.js?tab=readme-ov-file
