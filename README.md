@@ -134,7 +134,7 @@ UNITY_WEBGL : WebGL을 위한 #define 지시어
 |:------------------|------------------:|
 |[0422 :<br>- 🔺조이스틱 추가 <br>- ✅wave 5까지 추가할 지뢰 만들기 <br>- ✅wave5되면 게임오버 띄우기  <br>- ✅(4-3강)캠포지션 변경<br>- ❌케릭터UI왼쪽 화면 4강](storageFiles/schedule/0422.md) |[0422 :- 캠 추적<br>-맵 위치<br>-안드로이드빌드<br>- 조이스틱 ](storageFiles/trouble/0422T.md) |
 |[0423 :  <br>- 케릭터 선택 창 꾸미기<br>- wave 7로 수정<br>지뢰 7단계까지 추가](storageFiles/schedule/0423.md)|[0423 : <br>webgl로 빌드하면 한글은 오류<br>조이스틱 문제<br>](storageFiles/trouble/0423T.md)|
-|**`0424 : 개발 마감`**<br>- 케릭터 선택 창 배경 이미지 변경하기<br>- 브로셔 작성<br>- 최종 빌드하기<br>- prezi  |------------------|
+|**`0424 : 개발 마감`**<br>- 케릭터 선택 창 배경 이미지 변경하기<br>- 브로셔 작성<br>- 최종 빌드하기<br>- prezi  |[0424 : <br>- canvas에 애니메이션 적용 문제<br><br>](storageFiles/trouble/0424T.md)|
 |0425 :- 브로셔 작성<br><br>  ||
 |0426 : <br>- 발표 준비<br>- zep 자료 제출||
 
