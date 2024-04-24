@@ -125,8 +125,7 @@ https://revealjs.com/
 
 ---  
 
-https://coderzero.tistory.com/entry/%EC%9C%A0%EB%8B%88%ED%8B%B0-C-%EA%B0%95%EC%A2%8C-16-%EC%A0%84%EC%B2%98%EB%A6%AC%EA%B8%B0-%EC%A7%80%EC%8B%9C%EC%96%B4Preprocessor-Directive  
-UNITY_WEBGL : WebGL을 위한 #define 지시어  
+
 
 ### `📝 개발일지  `
 
@@ -353,30 +352,6 @@ Remove 삭제
 ```
 
 
-<details >
-    <summary > ⚓ 참고 영상  </summary>  
-
- 
-
-<br>
-
-|    |     |   |
-|:------------------:|:------------------:|:------------------:|
-|[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)|[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|[게코딩 GeCoding](https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0)|
-||||
-|[포톤 : 고라니tv](https://www.youtube.com/playlist?list=PL3KKSXoBRRW3YE4UMnRH762vOhSHLdnpK)|[포톤 : 유니티쳐](https://www.youtube.com/playlist?list=PLR7ZBZc9XtFKaHIkPX3p7BETP8XGJLVVs)|[레트로 retr0 :<br>유니티 UNet 멀티플레이어 게임 개발하기](https://www.youtube.com/playlist?list=PLctzObGsrjfxQ6A8KX1heuQaNkL5xMA2D)|
-|[레트로 retr0 :<br>유니티 멀티플레이어 네트워크 게임 한방에 만들기](https://www.youtube.com/playlist?list=PLctzObGsrjfwF7kkoraWb235U8Z602gx1)|||
-||||
-|[깃허브블로그 1부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr)|[깃허브블로그 2부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY)|[깃허브블로그](https://www.youtube.com/playlist?list=PL7nkwz9MkASx1wxXK51n7KtwQyXgoNL70)|
-||||
-|[**유니티 맵,fx 등 : 코더캣**](https://www.youtube.com/@seranine/playlists)|[곽영호 : 유니티 스프라이트 이해하기](https://www.youtube.com/watch?v=u_5tUu9f9OQ)||
-|[[엔큐브] 유니티 2D 게임개발 기초 강좌](https://www.youtube.com/playlist?list=PLgX2DtsPa7hPGQznz3M6mIOokXVtrXKkC)|||
-|[`고박사 유니티 기초강의`: **16강**](https://www.youtube.com/playlist?list=PLC2Tit6NyVieQ6vVq9HX9zEJKjPZ8QNcn)|[HJ : Unity UI Lab](https://www.youtube.com/playlist?list=PLgCVPIIZ3xL-IE68dVDHR_DIqzk2hFbTK)||
-
-
-</details>  
-
-
 ---   
 
 <details >
@@ -405,20 +380,6 @@ Remove 삭제
 
 ---  
 
-<!-- <details >
-    <summary >`📝 개발일지  `  </summary> 
-
-
-||링크|QR|
-|--|:--:|:--:|
-|0329 입문 강의 완료 <br> - 인벤토리 제작 전<br> - 장착형 아이템 만드는 중 |[webgl test](https://s8st.github.io/20240320FinalProject/)|![1l5Jj](https://github.com/s8st/20240320FinalProject/assets/153998744/f8bf26e7-5129-4b23-bd27-4916d5c29a13)  |
-
-
-</details>  
- -->
-
-
-
 
 
 ---  
@@ -437,7 +398,61 @@ Remove 삭제
 |0422 : 조이스틱테스트|[0422 : 조이스틱테스트](https://s8st.github.io/20240320FinalProject/5/index.html)||
 |0422 : 조이스틱테스트2|[0422 : 조이스틱테스트2](https://s8st.github.io/20240320FinalProject/6/index.html)||
 |0423 : |[0423 : ](https://s8st.github.io/20240320FinalProject/7/index.html)||
+|0424 : <br>- 플래시화면 추가<br>- 케릭터 선택 화면 꾸미기 |[0424 : 8 차 빌드 ](https://s8st.github.io/20240320FinalProject/8/index.html)||
 |0430 : 최종 webgl 빌드|||
+
+
+
+
+
+<!-- <details >
+    <summary >`📝 개발일지  `  </summary> 
+
+
+`📝 개발일지  `
+
+|    |  문제점    |
+|:------------------:|:------------------:|
+|`[날짜 : ](storageFiles/schedule/날짜.md)`||
+|||
+|||
+|||
+|||
+
+
+</details>  
+
+
+
+
+
+<details >
+    <summary > ⚓ 참고 영상  </summary>  
+
+ 
+
+<br>
+
+|    |     |   |
+|:------------------:|:------------------:|:------------------:|
+|[케릭터 선택 방법](https://www.youtube.com/watch?v=pRw_YzkZThc&list=WL&index=1)|[inputsystem 사용법](https://www.youtube.com/watch?v=dsLBzrbo-Vs)|[게코딩 GeCoding](https://www.youtube.com/playlist?list=PLB8IH8T8K71ywWrrY-oKIVd1NBGUmpwh0)|
+||||
+|[포톤 : 고라니tv](https://www.youtube.com/playlist?list=PL3KKSXoBRRW3YE4UMnRH762vOhSHLdnpK)|[포톤 : 유니티쳐](https://www.youtube.com/playlist?list=PLR7ZBZc9XtFKaHIkPX3p7BETP8XGJLVVs)|[레트로 retr0 :<br>유니티 UNet 멀티플레이어 게임 개발하기](https://www.youtube.com/playlist?list=PLctzObGsrjfxQ6A8KX1heuQaNkL5xMA2D)|
+|[레트로 retr0 :<br>유니티 멀티플레이어 네트워크 게임 한방에 만들기](https://www.youtube.com/playlist?list=PLctzObGsrjfwF7kkoraWb235U8Z602gx1)|||
+||||
+|[깃허브블로그 1부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfQBZQwD-vCZENL5YLDZekr)|[깃허브블로그 2부](https://www.youtube.com/playlist?list=PLIMb_GuNnFwfMm3alTSOmDK4AnpdG7USY)|[깃허브블로그](https://www.youtube.com/playlist?list=PL7nkwz9MkASx1wxXK51n7KtwQyXgoNL70)|
+||||
+|[**유니티 맵,fx 등 : 코더캣**](https://www.youtube.com/@seranine/playlists)|[곽영호 : 유니티 스프라이트 이해하기](https://www.youtube.com/watch?v=u_5tUu9f9OQ)||
+|[[엔큐브] 유니티 2D 게임개발 기초 강좌](https://www.youtube.com/playlist?list=PLgX2DtsPa7hPGQznz3M6mIOokXVtrXKkC)|||
+|[`고박사 유니티 기초강의`: **16강**](https://www.youtube.com/playlist?list=PLC2Tit6NyVieQ6vVq9HX9zEJKjPZ8QNcn)|[HJ : Unity UI Lab](https://www.youtube.com/playlist?list=PLgCVPIIZ3xL-IE68dVDHR_DIqzk2hFbTK)||
+
+
+</details>  
+
+
+
+
+
 
 
 
@@ -475,21 +490,8 @@ fixedJoystick.gameObject.SetActive(true);
 sever접속 ---> (lobby -->) room 생성  
 
 
-<!-- <details >
-    <summary >`📝 개발일지  `  </summary> 
 
 
-`📝 개발일지  `
 
-|    |  문제점    |
-|:------------------:|:------------------:|
-|`[날짜 : ](storageFiles/schedule/날짜.md)`||
-|||
-|||
-|||
-|||
-
-
-</details>  
  -->
 
