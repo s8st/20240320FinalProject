@@ -27,7 +27,7 @@ public class PlayerInputController : TopDownCharacterController
             IsAttacking = true;
             Vector2 worldPos = _camera.ScreenToWorldPoint(Input.mousePosition); // 마우스 위치를 월드좌표값으로 변경
             Vector2 newAim = (worldPos - (Vector2)transform.position).normalized;
-            Debug.Log(newAim);
+          //  Debug.Log(newAim);
             // 마우스의 월드좌표값에서 내 위치값을 vector2값으로 변환한 좌표를 빼고 크기 1인 단위벡터로 만들기
             // 내 위치에서 마우스로 향하는 방향
 
