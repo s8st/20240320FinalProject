@@ -6144,7 +6144,7 @@ Transform:
   - {fileID: 1738962301353740814}
   - {fileID: 8096350539782212332}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1220005774159854847
 MonoBehaviour:
@@ -6374,7 +6374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 4878986710679155361}
-  shootingClip: {fileID: 8300000, guid: b7f8695cf65a4f24eb37544298821146, type: 3}
+  shootingClip: {fileID: 8300000, guid: 7c47b20bb9874304a809dc5580d403ba, type: 3}
 --- !u!114 &2556322979151394480
 MonoBehaviour:
   m_ObjectHideFlags: 0
