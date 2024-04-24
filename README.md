@@ -96,20 +96,16 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 
 
 
-https://learn.microsoft.com/ko-kr/dotnet/csharp/    
 
-https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html  
 
 
 
 
 
 ---  
+<details >
+    <summary > 🔜 브로셔 및 발표 자료  </summary> 
 
-
-
-
----  
 발표  
 - https://prezi.com/
     - https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/
@@ -122,6 +118,27 @@ https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html
 [ppt 테스트](https://s8st.github.io/20240320FinalProject/ppt/index.html)
 
 https://revealjs.com/
+
+
+</details >
+
+---  
+
+<details >
+    <summary >케릭터, 아이템 요약 작성중   </summary> 
+
+|||
+|:------:|:------:|
+|[물약아이템](storageFiles/아이템/Item.md)||
+|케릭터||
+|맵||
+|장비||
+|발사체||
+|배경음악|[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)|
+
+
+[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)
+</details>  
 
 ---  
 
@@ -138,22 +155,6 @@ https://revealjs.com/
 |0426 : <br>- 발표 준비<br>- zep 자료 제출||
 
 포토샵에서 html 파일 생성 테스트  
-
-
-
-
-
-
-
-
-
----  
-
-
-
-
-
-
 
 
 
@@ -352,23 +353,6 @@ Remove 삭제
 ```
 
 
----   
-
-<details >
-    <summary >케릭터, 아이템 요약 작성중   </summary> 
-
-|||
-|:------:|:------:|
-|[물약아이템](storageFiles/아이템/Item.md)||
-|케릭터||
-|맵||
-|장비||
-|발사체||
-|배경음악|[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)|
-
-
-[BGM_03.webm](https://github.com/s8st/20240320FinalProject/assets/153998744/abcd1068-a734-485c-bbb0-cda85fa117e7)
-</details>  
 
 
 
@@ -378,7 +362,7 @@ Remove 삭제
 케릭터,맵,아이템,효과   :  [Assets](storageFiles/References/ref_character_map_fx.md)  
 사운드,조이스틱 :  [🔊Audio,🕹Joystick](storageFiles/References/ref_sound.md) 
 
----  
+
 
 
 
@@ -488,7 +472,9 @@ sever접속  (lobby ) room 생성
 ```
 
 
+https://learn.microsoft.com/ko-kr/dotnet/csharp/    
 
+https://docs.unity3d.com/kr/2022.3/Manual/UnityManual.html  
 
  -->
 
