@@ -405,7 +405,9 @@ Remove 삭제
 
 
 
-<!-- <details >
+<!--
+
+<details >
     <summary >`📝 개발일지  `  </summary> 
 
 
@@ -449,18 +451,13 @@ Remove 삭제
 
 </details>  
 
+-->
 
 
 
+<!--
 
 
-
-
-**`브랜치를 백업용으로 사용하면 readme나 개발일지 등의 기록물이 다 이전으로 되돌려지는 문제`** 
-- 리드미, 개발일지 등을 다른 리파지토리를 만들어서 연결하면 될까?
-  - ---> 다른 리파지토리에서 따로 기록하고 여기에 연결시키는 게 관리하기 좋을 것 같다
-- 리드미, 개발일지만 빼고 되돌리기가 가능할까?
-    - ---> **main**(default branch)에서 **브랜치**로 먼저 최신정보를 업데이트(**pull**)한 후에 push하면 된다.
 
 
 ```
@@ -482,13 +479,13 @@ fixedJoystick.gameObject.SetActive(true);
 ### `프로젝트에 pun2를 적용하기 위해 먼저 필요한 개념들 정리`
 
 - Resources에 동기화 해야하는 객체들을 프리팹으로 만들기
-- 발사체는 rpc로? --> 고라니tv 다시 확인
-
+- `발사체는 rpc로?  고라니tv 다시 확인`
+```
  if(photonView.IsMine) 조건을 걸어서 플레이어가 내것인지 검사해서 내것이라면 이동 등을 할 수 있게
  if(!photonView.AmOwner) 방장만 할 수 있는 행위(예로 핑퐁에서 공 스폰하게)
  
-sever접속 ---> (lobby -->) room 생성  
-
+sever접속  (lobby ) room 생성
+```
 
 
 
