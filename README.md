@@ -117,6 +117,12 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 > - 깃허브 페이지에 영상을 올려야 링크플레이 열림, 깃허브페이지에 반영되는 시간이 3분 이상 걸림
 > - 리드미에 드래그엔드랍은 영상이 embed되지만 용량 10mb 제한
 > - 영상 주소는 테이블이 안되는 듯 : 유튜브와 깃허브 페이지에 시연영상
+> - 2분 시연영상 :
+>     - 1. 케릭터 선택하는 영상
+>       2. 4마리 각각의 케릭터로 총알 발사 하는 영상
+>       3. 죽으면 게임오버 영상
+>       4. 웨이브 7단계 가면 게임 피니쉬 영상
+
 <br> 
 
 |https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|
