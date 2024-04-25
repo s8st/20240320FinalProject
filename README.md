@@ -132,6 +132,7 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
 
 https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
+https://s8st.github.io/20240320FinalProject/Recordings/Movie_005_3.mp4
 
 ```
 
@@ -142,6 +143,7 @@ https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
 https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
 
 https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
+https://s8st.github.io/20240320FinalProject/Recordings/Movie_005_3.mp4
 ```
 
 
