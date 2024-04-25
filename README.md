@@ -106,21 +106,32 @@ https://kjk-dev.notion.site/Spawn-Monster-6786e1326071408382c6f02ed306f935
 <br>  
 
 
-[영상테스트](Movie_003.mp4)    
-[Honeycam 2024-03-11 23-53-04.webm](https://github.com/s8st/s8st/assets/153998744/9425e2ca-d41c-4b2e-abbf-98cdb367537d)  
 
 > 영상 삽입 테스트
 - `https://github.com/s8st/20240320FinalProject/assets/153998744/`
 - 10mb이하 드래그엔드랍 가능 : 임베드 가능
 - `https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a`
-  
-https://github.com/s8st/s8st/assets/153998744/9425e2ca-d41c-4b2e-abbf-98cdb367537d
+- 깃허브 페이지에 올려야 하네...  
 
+ |https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a | https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4 |
+ |--|--|
+
+ 
 https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
-
 
 https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
 
+```
+
+
+ |https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|
+ |--|--|
+
+
+https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
+
+https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
+```
 
 
 
