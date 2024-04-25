@@ -53,6 +53,13 @@
 
 
 ###### RPG 제작하는 팀 참고: 12,13,15,18,19조  
+
+<video controls src="Movie_003-1.mp4" title="Title"></video>  
+
+```
+10mb이상 영상 테스트
+<video controls src="Movie_003-1.mp4" title="Title"></video>
+```
 ---  
 
 
