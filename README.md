@@ -118,7 +118,7 @@ https://github.com/s8st/s8st/assets/153998744/9425e2ca-d41c-4b2e-abbf-98cdb36753
 https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
 
 
-
+https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
 
 
 
