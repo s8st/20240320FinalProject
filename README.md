@@ -102,7 +102,7 @@ https://revealjs.com/
 |[0423 :  <br>- 케릭터 선택 창 꾸미기<br>- wave 7로 수정<br>지뢰 7단계까지 추가](storageFiles/schedule/0423.md)|[0423 : <br>webgl로 빌드하면 한글은 오류<br>조이스틱 문제<br>](storageFiles/trouble/0423T.md)|
 |[**`0424 : 개발 마감`**<br>- 케릭터 선택 창 배경 이미지 변경하기<br>- 브로셔 작성<br>- 최종 빌드하기<br>- prezi](storageFiles/schedule/0424.md)  |[0424 : <br>- canvas에 애니메이션 적용 문제<br><br>](storageFiles/trouble/0424T.md)|
 |[0425 :- 브로셔 작성<br><br>](storageFiles/schedule/0425.md)  |[0425 : <br>- 깃허브 영상크기 100mb<br><br>](storageFiles/trouble/0425T.md)|
-|[0426 : <br>- 발표 준비 : 프레지??<br>- zep 자료 제출](storageFiles/schedule/0426.md)|0426 :|
+|[0426 : <br>- 발표 준비 : 프레지??<br>- zep 자료 제출](storageFiles/schedule/0426.md)|[0426 : webgl에서 오류](storageFiles/trouble/0426T.md)|
 
 포토샵에서 html 파일 생성 테스트  
 
