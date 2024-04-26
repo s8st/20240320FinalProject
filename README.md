@@ -65,8 +65,9 @@
 
 <br>  
 
-> ## 시연영상  
-> https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
+### `시연영상`
+
+https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
 
 ---  
 <details >
@@ -91,7 +92,7 @@ https://revealjs.com/
 ---  
 
 <details >
-    <summary >케릭터, 아이템 요약 작성중   </summary> 
+     <summary >  케릭터, 아이템 요약 작성중   </summary> 
 
 |||
 |:------:|:------:|
@@ -340,7 +341,7 @@ Remove 삭제
 ---  
 
 
-[🎉(클릭☞) webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
+[🎉클릭 webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
 
 ||링크|QR|
 |--|:--:|:--:|
