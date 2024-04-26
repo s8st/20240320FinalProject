@@ -45,29 +45,12 @@
 
 
 </details>    
-
-  
-
-
-
-
- 
-
 <br>  
 
-
-
-
-
-
-
-
+### `시연영상`  
+https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba  
 
 <br>  
-
-### `시연영상`
-
-https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
 
 ---  
 <details >
