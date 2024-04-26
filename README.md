@@ -341,8 +341,13 @@ Remove 삭제
 ---  
 
 
-[🎉클릭 webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
+### [🎮 `webgl link page`🕹](https://s8st.github.io/20240320FinalProject/)  
+![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
 
+
+<details >
+    <summary > 빌드 목록  </summary> 
+    
 ||링크|QR|
 |--|:--:|:--:|
 |0329 입문 강의 완료 <br> - 인벤토리 제작 전<br> - 장착형 아이템 만드는 중 |[0329 : 1차 빌드 - 개발입문강의](https://s8st.github.io/20240320FinalProject/1/index.html)  |  |
@@ -355,7 +360,7 @@ Remove 삭제
 |0424 : <br>- 플래시화면 추가<br>- 케릭터 선택 화면 꾸미기 |[0424 : 8 차 빌드 ](https://s8st.github.io/20240320FinalProject/8/index.html)||
 |0430 : 최종 webgl 빌드|||
 
-
+</details>  
 
 
 
