@@ -54,11 +54,27 @@ https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817
 
 ---  
 <details >
-    <summary > 🔜 브로셔 및 발표 자료  </summary> 
+    <summary > 🔜 브로셔 및 발표 자료, 리드미  </summary> 
 
-발표  
-- https://prezi.com/
-    - https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/
+### 깃허브 리드미 작성 및 발표 준비 
+
+- https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/
+
+1. 목차 준비
+    - 브로셔 목차로 
+2. 배경 준비
+3. 게임 속 케릭터 gif 만들기
+4. 시연 동영상 편집
+
+#### 리드미 작성
+- 조작법
+- 케릭터
+- 물약 아이템 설명
+- 맵, 지뢰
+- 
+
+
+
 - 구글 슬라이드
 - https://revealjs.com/
 - https://github.com/impress/impress.js?tab=readme-ov-file
