@@ -65,67 +65,8 @@
 
 <br>  
 
-
-
-> 영상 삽입 테스트
-- `https://github.com/s8st/20240320FinalProject/assets/153998744/`
-- 10mb이하 드래그엔드랍 가능 : 임베드 가능
-- `https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a`
-- 깃허브 페이지에 올려야 하네...
-  
-> [!CAUTION]
-> - 깃허브 페이지에 영상을 올려야 링크플레이 열림, 깃허브페이지에 반영되는 시간이 3분 이상 걸림
-> - 리드미에 드래그엔드랍은 영상이 embed되지만 용량 10mb 제한
-> - 영상 주소는 테이블이 안되는 듯 : 유튜브와 깃허브 페이지에 시연영상
-> - 2분 시연영상 :
->     - 1. 케릭터 선택하는 영상
->       2. 4마리 각각의 케릭터로 총알 발사 하는 영상
->       3. 죽으면 게임오버 영상
->       4. 웨이브 7단계 가면 게임 피니쉬 영상
-
-<br> 
-
-|https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|
-|--|--|
-|https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|  
- 
-
-
-https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
-https://s8st.github.io/20240320FinalProject/Recordings/Movie_005_3.mp4
-
-
-
-
-
-
-https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
-
-
-
-
-```
-
-|https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|
-|--|--|
-|https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a|https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4|  
- 
-https://github.com/s8st/20240320FinalProject/assets/153998744/50fb9270-1182-4019-ac3f-914a00e75b1a
-
-https://s8st.github.io/20240320FinalProject/Recordings/Movie_003.mp4
-https://s8st.github.io/20240320FinalProject/Recordings/Movie_005_3.mp4
-
-
-https://github.com/s8st/20240320FinalProject/assets/153998744/c6f8b513-b4b9-4eac-b350-d853797f71e8
-
-
-https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
-
-
-```
-
-
-
+> ## 시연영상  
+> https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba
 
 ---  
 <details >
@@ -368,15 +309,20 @@ gantt
 
 ---  
 
-
+<!--
 ```
 Feat 새로운 기능
 Fix 버그
+Add 추가
+Change 교체, 변경
 Update 문서 등 수정
 Test 테스트
 Remove 삭제
 ```
+-->
 
+|**커밋** <br>- `Feat` 새로운 기능   - `Fix` 버그   - `Add` 추가   - `Change` 변경 <br>- `Update` 문서 등 수정   - `Test` 테스트   - `Remove` 삭제| 
+|:--|
 
 
 
@@ -392,11 +338,9 @@ Remove 삭제
 
 
 ---  
-> ❓ 브랜치의 docs의 webgl도 버전 관리 가능 여부  
-> **--> 기능을 추가할 때마다 브랜치를 만들어서 브랜치 별로 webgl 빌드를 하고 main branch의 docs에 저장하면 될 것 같다**
 
 
-[🎉(클릭) webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
+[🎉(클릭☞) webgl link page](https://s8st.github.io/20240320FinalProject/)![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
 
 ||링크|QR|
 |--|:--:|:--:|
