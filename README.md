@@ -341,8 +341,8 @@ Remove 삭제
 ---  
 
 
-### [🎮 `webgl link page`🕹](https://s8st.github.io/20240320FinalProject/)  
-![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)
+### [🎮 `webgl link page`](https://s8st.github.io/20240320FinalProject/)  
+[![링크](https://github.com/s8st/20240320FinalProject/assets/153998744/00db9248-3142-4cbf-9de4-76e593ef938a)](https://s8st.github.io/20240320FinalProject/)  
 
 
 <details >
