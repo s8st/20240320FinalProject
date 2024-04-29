@@ -50,7 +50,8 @@ action - batch - gif
 
 <br>  
 
-[![0429_게임소개_타이틀_01](https://github.com/s8st/20240320FinalProject/assets/153998744/9f8dc7a9-89f8-4e98-a5b9-90299dedd53d)](https://s8st.github.io/20240320FinalProject/8/index.html)
+[![0429_게임소개_타이틀_01](https://github.com/s8st/20240320FinalProject/assets/153998744/9f8dc7a9-89f8-4e98-a5b9-90299dedd53d)](https://s8st.github.io/20240320FinalProject/8/index.html)![0429_게임소개_상세_02](https://github.com/s8st/20240320FinalProject/assets/153998744/d138f95f-392a-4868-a078-8ef784c9e9f2)
+
 
 
 
