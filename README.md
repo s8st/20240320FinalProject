@@ -19,7 +19,6 @@
 >- 장르 :  ~MMO~**RPG**
 >- 2D/3D : **2D**
 
-![Untitled-1](https://github.com/s8st/20240320FinalProject/assets/153998744/17bcc869-5ea7-4b5c-aedf-970fbbf7dff5)
 
 
 
@@ -53,7 +52,7 @@ action - batch - gif
 
 <br>  
 
-
+###  `게임 소개`  
 [![0429_게임소개_타이틀2_01](https://github.com/s8st/20240320FinalProject/assets/153998744/46488eca-faec-4fc5-b2b1-226e86a689ea)](https://s8st.github.io/20240320FinalProject/8/index.html)![0429_게임소개_상세_02](https://github.com/s8st/20240320FinalProject/assets/153998744/d138f95f-392a-4868-a078-8ef784c9e9f2)
 
 
@@ -61,7 +60,11 @@ action - batch - gif
 ###  `시연영상`  
 https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba  
 
+###  `사용된 프로그램`  
+![Untitled-1](https://github.com/s8st/20240320FinalProject/assets/153998744/17bcc869-5ea7-4b5c-aedf-970fbbf7dff5)
 
+###  `클라이언트 구조`  
+![image](https://github.com/s8st/20240320FinalProject/assets/153998744/9ebe88a7-7223-448e-8fdb-d61f03407d85)
 
 <br>  
 
