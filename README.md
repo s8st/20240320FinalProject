@@ -102,7 +102,7 @@ https://revealjs.com/
 ---  
 
 <details >
-     <summary >  케릭터, 아이템 요약 작성중   </summary> 
+     <summary >  케릭터, 아이템 요약 작성중... 이건 생략... 시간 없다   </summary> 
 
 |||
 |:------:|:------:|
