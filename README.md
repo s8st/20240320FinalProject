@@ -19,6 +19,9 @@
 >- 장르 :  ~MMO~**RPG**
 >- 2D/3D : **2D**
 
+![Untitled-1](https://github.com/s8st/20240320FinalProject/assets/153998744/17bcc869-5ea7-4b5c-aedf-970fbbf7dff5)
+
+
 
 <details >
     <summary >🛠 프로젝트 구현 계획  </summary> 
