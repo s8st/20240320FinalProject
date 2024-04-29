@@ -358,7 +358,9 @@ Remove 삭제
 
 ### `📚 참고 자료들 : `
 케릭터,맵,아이템,효과   :  [Assets](storageFiles/References/ref_character_map_fx.md)  
-사운드,조이스틱 :  [🔊Audio,🕹Joystick](storageFiles/References/ref_sound.md) 
+사운드,조이스틱 :  [🔊Audio,🕹Joystick](storageFiles/References/ref_sound.md)   
+https://simpleicons.org/ :![image](https://github.com/s8st/20240320FinalProject/assets/153998744/8a6180dd-4b9e-4abf-acf3-10360ca8deab)  
+
 
 
 
