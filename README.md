@@ -66,6 +66,9 @@ action - batch - gif
 
 ### 🎬 `시연영상`  
 https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba  
+<!--
+https://youtu.be/jQdnct-AnUc
+-->
 
 ### 💻 `사용된 프로그램`  
 ![Untitled-1](https://github.com/s8st/20240320FinalProject/assets/153998744/17bcc869-5ea7-4b5c-aedf-970fbbf7dff5)
