@@ -52,8 +52,12 @@ action - batch - gif
 
 <br>  
 
-### 🎮 `게임 소개`  
-[![0429_게임소개_타이틀_깃허브3](https://github.com/s8st/20240320FinalProject/assets/153998744/64a5a902-34de-470c-9055-0e8c8593d338)](https://s8st.github.io/20240320FinalProject/8/index.html)![0429_게임소개_상세_02](https://github.com/s8st/20240320FinalProject/assets/153998744/d138f95f-392a-4868-a078-8ef784c9e9f2)
+### 🎮 `게임 해보기`  
+[![0429_게임소개_타이틀_깃허브3](https://github.com/s8st/20240320FinalProject/assets/153998744/64a5a902-34de-470c-9055-0e8c8593d338)](https://s8st.github.io/20240320FinalProject/8/index.html)
+
+### 🎟 `게임 소개`  
+![0429_게임소개_상세_02](https://github.com/s8st/20240320FinalProject/assets/153998744/d138f95f-392a-4868-a078-8ef784c9e9f2)
+
 
 <!--
 [![0429_게임소개_타이틀2_01](https://github.com/s8st/20240320FinalProject/assets/153998744/46488eca-faec-4fc5-b2b1-226e86a689ea)](https://s8st.github.io/20240320FinalProject/8/index.html)
