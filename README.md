@@ -71,7 +71,8 @@ https://youtu.be/jQdnct-AnUc
 -->
 
 ### 💻 `사용된 프로그램`  
-![Untitled-1](https://github.com/s8st/20240320FinalProject/assets/153998744/17bcc869-5ea7-4b5c-aedf-970fbbf7dff5)
+![Untitled-3](https://github.com/s8st/20240320FinalProject/assets/153998744/85fff401-f9b1-47c3-ae02-0775e601a530)
+
 
 ### 🧩 `클라이언트 구조`  
 ![image](https://github.com/s8st/20240320FinalProject/assets/153998744/9ebe88a7-7223-448e-8fdb-d61f03407d85)
