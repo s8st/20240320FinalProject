@@ -79,29 +79,12 @@ https://youtu.be/jQdnct-AnUc
 
 ---   
 <br>  
+
+[발표 자료 : Prezi](https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/)
  
-<details >
-    <summary > 🔜 브로셔 및 발표 자료, 리드미  </summary> 
-
-### 깃허브 리드미 작성 및 발표 준비 
-
-- https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/
-
-1. 목차 준비
-    - 브로셔 목차로 
-2. 배경 준비
-3. 게임 속 케릭터 gif 만들기
-4. 시연 동영상 편집
-
-#### 리드미 작성
-- 조작법
-- 케릭터
-- 물약 아이템 설명
-- 맵, 지뢰
-- 
 
 
-
+<!--
 - 구글 슬라이드
 - https://revealjs.com/
 - https://github.com/impress/impress.js?tab=readme-ov-file
@@ -111,9 +94,8 @@ https://youtu.be/jQdnct-AnUc
 [ppt 테스트](https://s8st.github.io/20240320FinalProject/ppt/index.html)
 
 https://revealjs.com/
+-->
 
-
-</details >
 
 <br>  
 
@@ -130,7 +112,7 @@ https://revealjs.com/
 |:------------------|------------------:|
 |0429 : <br>- 리드미 작성<br>- 발표 준비<br>- 케릭터, 아이템 정리하기<br>||
 |[0430 :<br>- 발표 준비<br>- 게임개발입문 복습<br>-  구글애너리틱스 연동방법](storageFiles/schedule/0430.md)||
-|0501 : **발표 : 15시**<br><br><br>||
+|0501 : **발표 : 16시**<br><br><br>||
 |0502 : **내배캠 종료**<br><br><br>||
 
 
@@ -406,7 +388,7 @@ https://simpleicons.org/ :![image](https://github.com/s8st/20240320FinalProject/
 |0422 : 조이스틱테스트2|[0422 : 조이스틱테스트2](https://s8st.github.io/20240320FinalProject/6/index.html)||
 |0423 : |[0423 : ](https://s8st.github.io/20240320FinalProject/7/index.html)||
 |0424 : <br>- 플래시화면 추가<br>- 케릭터 선택 화면 꾸미기 |[0424 : 8 차 빌드 ](https://s8st.github.io/20240320FinalProject/8/index.html)||
-|0430 : 최종 webgl 빌드|||
+
 
 </details>  
 
