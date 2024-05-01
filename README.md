@@ -121,6 +121,7 @@ https://revealjs.com/
 |0501 : **발표 : 16시**<br><br><br>||
 |0502 : **내배캠 종료**<br><br><br>||
 
+gif로 만들기  ![image](https://github.com/s8st/20240320FinalProject/assets/153998744/9189e450-91d3-4ea3-99ce-00ab96a118a6)
 
 포토샵에서 html 파일 생성 테스트  
 지킬 블로그 만들기
