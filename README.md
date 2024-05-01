@@ -56,6 +56,8 @@
 ### 🎟 `게임 소개`  
 ![0429_게임소개_상세_02](https://github.com/s8st/20240320FinalProject/assets/153998744/d138f95f-392a-4868-a078-8ef784c9e9f2)
 
+### `7단계 맵과 지뢰`  
+![Unity_EChgybYEBO](https://github.com/s8st/20240320FinalProject/assets/153998744/a4ded98d-8986-4ac3-a62a-cc9c199fbd74)
 
 <!--
 [![0429_게임소개_타이틀2_01](https://github.com/s8st/20240320FinalProject/assets/153998744/46488eca-faec-4fc5-b2b1-226e86a689ea)](https://s8st.github.io/20240320FinalProject/8/index.html)
