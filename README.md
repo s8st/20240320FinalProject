@@ -63,6 +63,7 @@
 [![0429_게임소개_타이틀2_01](https://github.com/s8st/20240320FinalProject/assets/153998744/46488eca-faec-4fc5-b2b1-226e86a689ea)](https://s8st.github.io/20240320FinalProject/8/index.html)
 -->
 
+<br>  
 
 ### 🎬 `시연영상`  
 https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817-b821-0184222928ba  
@@ -70,8 +71,12 @@ https://github.com/s8st/20240320FinalProject/assets/153998744/d6f3055d-0a8b-4817
 https://youtu.be/jQdnct-AnUc
 -->
 
+<br>  
+
 ### 💻 `사용된 프로그램`  
 ![Untitled-3](https://github.com/s8st/20240320FinalProject/assets/153998744/85fff401-f9b1-47c3-ae02-0775e601a530)
+
+<br>  
 
 
 ### 🧩 `클라이언트 구조`  
@@ -79,11 +84,10 @@ https://youtu.be/jQdnct-AnUc
 
 <br>  
 
----   
-<br>  
 
-### 🎤 `[발표 자료 : Prezi](https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/)`
- 
+
+ ### [🎤 `발표 자료 : Prezi`](https://prezi.com/view/sJTlcEAI2RQYsaUcD4sl/)
+  
 
 
 <!--
