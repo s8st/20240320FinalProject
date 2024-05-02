@@ -119,9 +119,9 @@ https://revealjs.com/
 |0429 : <br>- 리드미 작성<br>- 발표 준비<br>- 케릭터, 아이템 정리하기<br>||
 |[0430 :<br>- 발표 준비<br>- 게임개발입문 복습<br>-  구글애너리틱스 연동방법](storageFiles/schedule/0430.md)||
 |0501 : **발표 : 16시**<br><br><br>||
-|0502 : **내배캠 종료**<br><br><br>||
+|0502 : **내배캠 종료**<br>- 오늘은 다 귀찮다<br><br>||
 
-gif로 만들기  ![image](https://github.com/s8st/20240320FinalProject/assets/153998744/9189e450-91d3-4ea3-99ce-00ab96a118a6)
+![image](https://github.com/s8st/20240320FinalProject/assets/153998744/9189e450-91d3-4ea3-99ce-00ab96a118a6)
 
 포토샵에서 html 파일 생성 테스트  
 지킬 블로그 만들기
